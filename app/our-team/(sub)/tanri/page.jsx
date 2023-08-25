@@ -173,7 +173,7 @@ const tanri = () => {
                     <FaLinkedinIn size={20} />
                   </Link>
                   <Link
-                    href={""}
+                    href={"mailto:tanriabeng42@gmail.com"}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
                   >
                     <FiMail size={20} />

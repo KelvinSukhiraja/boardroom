@@ -107,7 +107,7 @@ const ContactUs = () => {
                   <FaInstagram size={20} />
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"mailto:tanriabeng42@gmail.com"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
                 >
                   <FiMail size={20} />
@@ -145,7 +145,7 @@ const ContactUs = () => {
                   <FaInstagram size={20} />
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"mailto:p.verhezen@gmail.com"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
                 >
                   <FiMail size={20} />

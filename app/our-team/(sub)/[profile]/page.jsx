@@ -17,16 +17,22 @@ const page = () => {
   var pName = "not available";
   var desc = "not available";
   var profilePic;
+  var linkedin;
 
   if (ian) {
+    linkedin = "https://www.linkedin.com/in/ikbuchanan/";
     profilePic = "/profile-C.png";
     pName = "Ian Buchanan";
     desc = "Ian Buchanan is the Emeritus Chairman of PWC Strategy.";
   } else if (luc) {
+    linkedin =
+      "https://www.linkedin.com/in/luc-van-liedekerke-855b3158/?originalSubdomain=be";
     profilePic = "/partnerB.png";
     pName = "Prof. Dr. Luc Vanliedekerke";
     desc = "Field of expertise: ESG-Reporting & Sustainability";
   } else if (pri) {
+    linkedin =
+      "https://www.linkedin.com/in/pri3notowidigdo/?originalSubdomain=id";
     profilePic = "/partnerA.png";
     pName = "Pri Notowidigdo";
     desc =
@@ -152,8 +158,9 @@ const page = () => {
                 </p>
                 <div className="flex items-center my-4 gap-8">
                   <Link
-                    href={""}
+                    href={linkedin}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
                   >
                     <FaLinkedinIn size={20} />
                   </Link>

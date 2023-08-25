@@ -89,9 +89,9 @@ const Services = () => {
                 factor to sustain economic performance is relentless strategic
                 innovation.
               </p>
-              <p className="font-bold text-xs md:text-sm hover:underline underline-offset-4">
+              {/* <Link href="#2" className="font-bold text-xs md:text-sm">
                 READ MORE
-              </p>
+              </Link> */}
             </motion.div>
             <motion.div
               variants={fadeIn}

@@ -195,12 +195,14 @@ const peter = () => {
                       "https://www.linkedin.com/in/peter-verhezen-a6b7a03/?originalSubdomain=be"
                     }
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
                   >
                     <FaLinkedinIn size={20} />
                   </Link>
                   <Link
-                    href={""}
+                    href={"mailto:p.verhezen@gmail.com"}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
                   >
                     <FiMail size={20} />
                   </Link>
