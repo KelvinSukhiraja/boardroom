@@ -370,7 +370,7 @@ const Services = () => {
             </motion.div>
           </div>
           <div className="md:w-1/2 w-full h-96 md:h-auto relative z-0 bg-slate-600">
-            <Image src={"/article-D.jpg"} fill objectFit="cover" />
+            <Image src={"/article-d.jpg"} fill objectFit="cover" />
           </div>
         </div>
       </div>
