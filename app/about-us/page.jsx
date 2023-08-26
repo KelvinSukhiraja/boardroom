@@ -50,7 +50,7 @@ const AboutUs = () => {
     <div>
       <div
         id="1"
-        className="bg-aboutus bg-fixed bg-cover h-screen flex flex-col justify-between md:px-28 md:pt-36"
+        className="bg-aboutus bg-fixed bg-cover h-screen flex flex-col justify-between md:px-28 md:pt-36 overflow-hidden"
       >
         <motion.div
           variants={fadeLeft}
@@ -77,7 +77,7 @@ const AboutUs = () => {
             enhance your position in a globalized competitive market.
           </p>
           <Link href="#2">
-            <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
+            <p className="font-bold text-lg md:text-sm hover:underline underline-offset-4">
               READ MORE
             </p>
           </Link>
@@ -224,7 +224,7 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="flex flex-col md:flex-row justify-between md:px-24"
         >
-          <div className="py-8 text-base md:text-2xl font-semibold">
+          <div className="py-8 text-lg md:text-2xl font-semibold">
             What we do differently?
             <p className="max-w-md text-xs md:text-sm font-normal my-4">
               We are looking for concrete results to enhance your

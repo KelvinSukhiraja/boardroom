@@ -838,12 +838,60 @@ const Downloadable = () => {
                 </tr>
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
+                    Verhezen, P. (2020), "From Tension to Transformation. How
+                    Wise Decision Makers transcend Paradoxes and Ambiguities",
+                    Amrop AI Series.
+                  </td>
+                  <td className="border-b text-xs ">
+                    <Link
+                      href="/papers/VERHEZEN_2020_WDM-Managing_Paradoxes_(Paper_no6).pdf"
+                      target="_blank"
+                      className=" hover:underline italic"
+                    >
+                      download
+                    </Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-b py-5 pr-5 text-xs">
+                    Verhezen, P. (2020), "China and the US: the AI race", Amrop
+                    AI Series.
+                  </td>
+                  <td className="border-b text-xs ">
+                    <Link
+                      href="/papers/VERHEZEN_2020_the_AI_Race_in_Geopolitics_(Paper no5).pdf"
+                      target="_blank"
+                      className=" hover:underline italic"
+                    >
+                      download
+                    </Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P., (2021), Het Amorele van AI met (soms) immorele
                     gevolgen, AG Connect
                   </td>
                   <td className="border-b text-xs ">
                     <Link
                       href="/papers/VERHEZEN_Inside_the_Wise_Leaders_Brain_Paper_no7.pdf"
+                      target="_blank"
+                      className=" hover:underline italic"
+                    >
+                      download
+                    </Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-b py-5 pr-5 text-xs">
+                    Verhezen, P. (2023), "Aligning Corporate Governance with
+                    Organizational Integrity", Chapter 18 in Kaptein, M.,
+                    Research Handbook on Organisational Integrity, Cheltenham,
+                    Edward Elgar Publications.
+                  </td>
+                  <td className="border-b text-xs ">
+                    <Link
+                      href="\papers\Organizational_Integrity_and_Corporate_Governance_V07.01_FV.pdf"
                       target="_blank"
                       className=" hover:underline italic"
                     >

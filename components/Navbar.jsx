@@ -81,7 +81,7 @@ const navbar = () => {
                 alt="logo"
                 width={90}
                 height={108}
-                className="p-5 md:p-0"
+                className={`p-5 md:p-0 ${isOpen ? "fixed z-50" : ""}`}
               />
             </Link>
             <button
@@ -102,14 +102,14 @@ const navbar = () => {
             variants={fadeIn}
             initial="initial"
             whileInView="animate"
-            className={`font-medium p-5 pb-14 md:p-0 top-0 h-screen md:h-fit w-full justify-center items-center md:items-start text-lg  md:text-xs backdrop-blur-3xl md:backdrop-blur-none flex flex-col md:flex-row ${
-              !isOpen ? "hidden md:flex" : "fixed top-20 md:relative"
+            className={`font-medium p-5 pb-14 md:p-0 top-0 h-screen md:h-fit w-full justify-center items-center text-lg  md:text-xs backdrop-blur-3xl md:backdrop-blur-none flex flex-col md:flex-row ${
+              !isOpen ? "hidden md:flex" : "fixed md:relative"
             }`}
           >
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
                 href={"/about-us"}
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => setIsOpen(false)}
                 className={`hover:font-bold ${
                   segment == "/about-us"
                     ? "font-bold underline underline-offset-8 cursor-default "
@@ -121,7 +121,7 @@ const navbar = () => {
             </div>
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => setIsOpen(false)}
                 href={"/our-team"}
                 className={`hover:font-bold ${
                   segment == "/our-team"
@@ -134,7 +134,7 @@ const navbar = () => {
             </div>
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => setIsOpen(false)}
                 href={"/services"}
                 className={`hover:font-bold ${
                   segment == "/services"
@@ -147,7 +147,7 @@ const navbar = () => {
             </div>
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => setIsOpen(false)}
                 href={"/contact-us"}
                 className={`hover:font-bold ${
                   segment == "/contact-us"

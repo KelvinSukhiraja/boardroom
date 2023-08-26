@@ -85,7 +85,7 @@ const page = () => {
     <div className="text-black overflow-hidden">
       <div
         id="1"
-        className="bg-hero bg-fixed bg-cover md:bg-center h-screen flex flex-col justify-between md:px-28 md:pt-36"
+        className="bg-hero bg-fixed bg-cover bg-center h-screen flex flex-col justify-between md:px-28 md:pt-36"
       >
         {/* <Image src={"/hero-bg.jpeg"} alt="bg" fill /> */}
 
@@ -105,7 +105,7 @@ const page = () => {
           viewport={{ once: true }}
           className="bg-primary text-white px-12 py-6 md:py-10 m-5 md:self-end"
         >
-          <h1 className="text-base md:text-2xl font-semibold">
+          <h1 className="text-lg md:text-2xl font-semibold">
             THE BOARDROOM <br />
             PARTNERSHIP
           </h1>
@@ -187,7 +187,7 @@ const page = () => {
               viewport={{ once: true }}
               className="text-white md:py-12 h-fit w-fit self-start"
             >
-              <div className="font-semibold text-xl md:text-3xl">
+              <div className="font-semibold text-2xl">
                 Founding <br /> Partners Team
               </div>
               <div className="text-xs sm:text-sm font-normal max-w-md md:my-5">
@@ -198,30 +198,34 @@ const page = () => {
             </motion.div>
             <div className="flex flex-wrap justify-between w-full text-white my-10 ">
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-lg md:text-2xl font-semibold text-third">
+                <h1 className="text-2xl font-semibold text-third">
+                  Tanri Abeng
+                </h1>
+                <p className="text-xs md:text-sm overflow-y-hidden my-2">
+                  Dr. Tanri Abeng is the chairman of Biofarma, a pharmaceutical
+                  State Owned Enterprise in Indonesia. Dr Tanri is co-founder
+                  and Chair of The Boardroom Partnership
+                </p>
+              </div>
+              <div className=" max-w-sm flex flex-col">
+                <h1 className="text-2xl font-semibold text-third">
                   Peter Verhezen
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
                   Dr Peter Verhezen is a Professor of strategy, sustainability
                   and corporate governance at the University of Antwerp and the
-                  Antwerp Management School (Belgium).
+                  Antwerp Management School (Belgium). Peter is co-founder and
+                  Senior Partner of The Boardroom Partnership
                 </p>
               </div>
+
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-lg md:text-2xl font-semibold text-third">
-                  Tanri Abeng
-                </h1>
-                <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                  Dr. Tanri Abeng is the chairman of Biofarma, a pharmaceutical
-                  State Owned Enterprise in Indonesia.
-                </p>
-              </div>
-              <div className=" max-w-sm flex flex-col">
-                <h1 className="text-lg md:text-2xl font-semibold text-third">
+                <h1 className="text-2xl font-semibold text-third">
                   Ian Buchanan
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                  Ian Buchanan is the Emeritus Chairman of PWC Strategy.
+                  Ian Buchanan is the Emeritus Chairman of PWC Strategy. Ian is
+                  Associated Senior Partner at The Boardroom Partnership.
                 </p>
               </div>
             </div>
@@ -434,29 +438,29 @@ const page = () => {
               <div className="text-third font-medium text-2xl ">
                 Good corporate governance practices
               </div>
-              <p className="font-normal text-xs md:text-sm mt-5">
+              {/* <p className="font-normal text-xs md:text-sm mt-5">
                 Any business – both in the emerging markets and developed
                 markets – will be hungry for capital to finance growth.
-              </p>
+              </p> */}
             </div>
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-2xl">
                 Strategy & Integrated Risk Management
               </div>
-              <p className="font-normal text-xs md:text-sm mt-5 ">
+              {/* <p className="font-normal text-xs md:text-sm mt-5 ">
                 Once the proper foundations of good corporate governance are in
                 place, proper vision and strategy can be thought through that
                 involves integrating all risk perspectives for the company.
-              </p>
+              </p> */}
             </div>
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-2xl">
                 Sustainability and ESG-Investments
               </div>
-              <p className="font-normal text-xs md:text-sm mt-5">
+              {/* <p className="font-normal text-xs md:text-sm mt-5">
                 Successful organizations need to demonstrate a willingness to
                 engage critical stakeholders in some of the decision-making.
-              </p>
+              </p> */}
             </div>
           </motion.div>
         </div>
@@ -491,21 +495,21 @@ const page = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="bg-third m-5 p-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
+            className="bg-third m-5 px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
           >
-            <div className="font-semibold text-sm md:text-2xl">
+            <div className="font-semibold text-lg md:text-2xl">
               Probably, your company may need a real digital strategy and
               digital operating system to face fierce competition.
             </div>
             <p className="font-normal text-xs md:text-sm max-w-[270px] py-2">
               For more information please fill free to contact us.
             </p>
-            <Link
+            {/* <Link
               href={"/contact-us"}
               className="font-bold text-base md:text-sm hover:underline underline-offset-4"
             >
               GET IN TOUCH
-            </Link>
+            </Link> */}
           </motion.div>
           <div className="-translate-x-2/4">
             <motion.div
@@ -572,13 +576,13 @@ const page = () => {
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              className="text-white bg-primary p-3 md:py-9 md:pl-12 md:pr-20 w-fit"
+              className="text-white bg-primary px-9 py-6 md:py-9 md:pl-12 md:pr-20 w-fit"
             >
-              <div className="font-semibold text-sm md:text-2xl max-w-sm">
+              <div className="font-semibold text-lg md:text-2xl max-w-sm">
                 Our testimonial on our beliefs for an effective and futureproof
                 Boardroom
               </div>
-              <p className="text-xs max-w-xs my-2">
+              <p className="text-xs md:text-sm max-w-xs my-2">
                 We are not your consultant or advisor, we will be your partner
                 to enhance your position in a globalized competitive market.
               </p>

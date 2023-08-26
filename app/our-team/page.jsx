@@ -133,7 +133,7 @@ const OurTeam = () => {
             viewport={{ once: true }}
             className="bg-primary text-white p-6 md:px-12 md:py-8 m-5 self-center md:mr-72"
           >
-            <h1 className="text-xl md:text-2xl font-semibold">
+            <h1 className="text-lg md:text-2xl font-semibold">
               Founding <br />
               Partners Team
             </h1>

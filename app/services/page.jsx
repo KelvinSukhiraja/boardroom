@@ -50,7 +50,7 @@ const Services = () => {
   const modalIn = {
     initial: {
       opacity: 0,
-      y: "-80vh",
+      y: "-30vh",
     },
     animate: {
       opacity: 1,
@@ -58,7 +58,7 @@ const Services = () => {
       transition: {
         type: "spring",
         delay: 0.3,
-        duration: 1,
+        duration: 0.5,
       },
     },
   };
@@ -153,17 +153,20 @@ const Services = () => {
                 variants={modalIn}
                 initial="initial"
                 whileInView="animate"
-                className="relative bg-primary rounded-3xl w-full h-3/4 md:w-3/5 md:h-3/4 flex flex-col justify-center items-center"
+                className="relative bg-primary rounded-3xl w-full h-2/5 md:w-3/5 md:h-3/4 flex flex-col justify-center items-center px-2"
               >
-                <button onClick={() => setModalOpen(!modalOpen)}>
+                <button
+                  onClick={() => setModalOpen(!modalOpen)}
+                  // className="w-full justify-end flex"
+                >
                   <AiOutlineClose
                     size={35}
-                    className={`absolute top-0 right-0 m-8 text-white ${
+                    className={`m-5 absolute top-0 right-0 z-50 text-white ${
                       modalOpen ? "flex" : "hidden"
                     }`}
                   />
                 </button>
-                <div className="w-full h-full  relative rotate-90">
+                <div className="w-full h-full  relative ">
                   <Image src={"/graph.svg"} fill />
                 </div>
               </motion.div>
