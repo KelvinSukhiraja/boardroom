@@ -77,7 +77,7 @@ const AboutUs = () => {
             enhance your position in a globalized competitive market.
           </p>
           <Link href="#2">
-            <p className="font-bold text-xs md:text-sm hover:underline underline-offset-4">
+            <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
               READ MORE
             </p>
           </Link>

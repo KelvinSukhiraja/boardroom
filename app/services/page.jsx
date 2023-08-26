@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Services = () => {
   const fadeLeft = {
@@ -22,7 +23,7 @@ const Services = () => {
   const fadeRight = {
     initial: {
       opacity: 0,
-      x: "10vw",
+      x: "5vw",
     },
     animate: {
       x: 0,
@@ -46,9 +47,25 @@ const Services = () => {
       },
     },
   };
+  const modalIn = {
+    initial: {
+      opacity: 0,
+      y: "-80vh",
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "spring",
+        delay: 0.3,
+        duration: 1,
+      },
+    },
+  };
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <div>
-      <div className="bg-service bg-cover bg-center bg-fixed overflow-x-hidden overflow-hidden">
+      <div className="bg-service bg-cover bg-center bg-fixed overflow-x-hidden">
         <div className="backdrop-brightness-50">
           <div
             id="1"
@@ -81,9 +98,12 @@ const Services = () => {
               </h1>
               <p className="text-xs md:text-sm my-4 max-w-md">
                 Success in organizations is almost always{" "}
-                <Link href={"#3"} className="underline">
+                <button
+                  onClick={() => setModalOpen(true)}
+                  className="underline italic font-bold"
+                >
                   temporary
-                </Link>
+                </button>
                 . And it will requires risk-taking and significant efforts to
                 maintain or sustain past success. The major distinguishing
                 factor to sustain economic performance is relentless strategic
@@ -124,6 +144,30 @@ const Services = () => {
                 SCROLL DOWN
               </div>
             </motion.div>
+            <div
+              className={`w-screen h-screen top-0 left-0 absolute flex justify-center items-center ${
+                modalOpen ? "flex" : "hidden"
+              }`}
+            >
+              <motion.div
+                variants={modalIn}
+                initial="initial"
+                whileInView="animate"
+                className="relative bg-primary rounded-3xl w-full h-3/4 md:w-3/5 md:h-3/4 flex flex-col justify-center items-center"
+              >
+                <button onClick={() => setModalOpen(!modalOpen)}>
+                  <AiOutlineClose
+                    size={35}
+                    className={`absolute top-0 right-0 m-8 text-white ${
+                      modalOpen ? "flex" : "hidden"
+                    }`}
+                  />
+                </button>
+                <div className="w-full h-full  relative rotate-90">
+                  <Image src={"/graph.svg"} fill />
+                </div>
+              </motion.div>
+            </div>
           </div>
           {/* SECOND */}
           <div

@@ -81,7 +81,7 @@ const page = () => {
     },
   };
   return (
-    <div className="bg-primary h-screen">
+    <div className="bg-primary min-h-screen">
       <div className="flex flex-col items-center md:px-28 px-5 py-6 w-fit overflow-x-hidden">
         <div className="">
           <motion.div

@@ -192,11 +192,11 @@ const OurTeam = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white"
+            className="text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white ml-2"
           >
             The Founding Partners
           </motion.div>
-          <div className="flex flex-col md:flex-row justify-center">
+          <div className="flex flex-col md:flex-row justify-center my-10">
             <div className="flex flex-col mx-8">
               <motion.div
                 variants={fadeLeft}
@@ -298,7 +298,7 @@ const OurTeam = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="text-black text-2xl font-semibold my-8 md:mx-16"
+          className="text-black text-2xl font-semibold my-8 md:mx-16 ml-2"
         >
           Our Associates & <br />
           Associated Partners
@@ -322,9 +322,9 @@ const OurTeam = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="flex gap-4 overflow-x-auto"
+          className="flex flex-col md:flex-row items-center gap-4 overflow-x-auto"
         >
-          <Link href="our-team/pri" className="flex relative w-96 h-[450px]">
+          <Link href="our-team/pri" className="flex relative w-96 h-96">
             <Image
               src={"/partnerA.png"}
               fill
@@ -335,7 +335,7 @@ const OurTeam = () => {
               Pri Notowidigdo
             </h1>
           </Link>
-          <Link href="our-team/luc" className="flex relative w-96 h-[450px]">
+          <Link href="our-team/luc" className="flex relative w-96 h-96">
             <Image
               src={"/partnerB.png"}
               fill

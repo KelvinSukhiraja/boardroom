@@ -85,7 +85,7 @@ const page = () => {
     <div className="text-black overflow-hidden">
       <div
         id="1"
-        className="bg-hero bg-fixed bg-cover bg-center h-screen flex flex-col justify-between md:px-28 md:pt-36"
+        className="bg-hero bg-fixed bg-cover md:bg-center h-screen flex flex-col justify-between md:px-28 md:pt-36"
       >
         {/* <Image src={"/hero-bg.jpeg"} alt="bg" fill /> */}
 
@@ -105,7 +105,7 @@ const page = () => {
           viewport={{ once: true }}
           className="bg-primary text-white px-12 py-6 md:py-10 m-5 md:self-end"
         >
-          <h1 className="text-lg md:text-2xl font-semibold">
+          <h1 className="text-base md:text-2xl font-semibold">
             THE BOARDROOM <br />
             PARTNERSHIP
           </h1>
@@ -116,7 +116,7 @@ const page = () => {
             non-financial performance.
           </p>
           <Link href="/about-us">
-            <p className="font-bold text-xs md:text-sm hover:underline underline-offset-4">
+            <p className="font-bold text-lg md:text-sm hover:underline underline-offset-4">
               READ MORE
             </p>
           </Link>
@@ -185,20 +185,20 @@ const page = () => {
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              className="text-white py-6 md:py-12 h-fit w-fit self-start"
+              className="text-white md:py-12 h-fit w-fit self-start"
             >
               <div className="font-semibold text-xl md:text-3xl">
                 Founding <br /> Partners Team
               </div>
-              <div className="text-xs sm:text-sm font-normal max-w-md my-5">
+              <div className="text-xs sm:text-sm font-normal max-w-md md:my-5">
                 Though we may not be real ‘management wizards’, we come close to
                 it as our reputation to make things happening is well-known in
                 the industry.
               </div>
             </motion.div>
-            <div className="flex flex-wrap justify-between w-full text-white my-8">
+            <div className="flex flex-wrap justify-between w-full text-white my-10 ">
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-2xl font-semibold text-third">
+                <h1 className="text-lg md:text-2xl font-semibold text-third">
                   Peter Verhezen
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
@@ -208,7 +208,7 @@ const page = () => {
                 </p>
               </div>
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-2xl font-semibold text-third">
+                <h1 className="text-lg md:text-2xl font-semibold text-third">
                   Tanri Abeng
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
@@ -217,7 +217,7 @@ const page = () => {
                 </p>
               </div>
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-2xl font-semibold text-third">
+                <h1 className="text-lg md:text-2xl font-semibold text-third">
                   Ian Buchanan
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
@@ -227,7 +227,7 @@ const page = () => {
             </div>
             <Link
               href={"/our-team"}
-              className="rounded-full outline outline-2 py-2 px-4 text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200"
+              className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200"
             >
               READ MORE
             </Link>
@@ -401,7 +401,7 @@ const page = () => {
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              className="bg-third md:max-w-xl text-white font-semibold md:text-2xl px-8 py-6 md:py-12 mx-5 md:ml-64"
+              className="bg-third md:max-w-xl text-white font-semibold text-2xl px-7 py-5 md:py-12 mx-5 md:ml-64"
             >
               Three main areas in which we partner with you to improve your
               firm’s overall performance:
@@ -463,7 +463,7 @@ const page = () => {
         <div className="flex justify-center md:py-20 py-10">
           <Link
             href={"/services"}
-            className="rounded-full outline outline-2 py-2 px-4 text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200"
+            className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200"
           >
             READ MORE
           </Link>
@@ -502,7 +502,7 @@ const page = () => {
             </p>
             <Link
               href={"/contact-us"}
-              className="font-bold text-xs md:text-sm hover:underline underline-offset-4"
+              className="font-bold text-base md:text-sm hover:underline underline-offset-4"
             >
               GET IN TOUCH
             </Link>
@@ -537,17 +537,18 @@ const page = () => {
           fill
           alt="article 2 background"
         /> */}
-        <div className="backdrop-blur backdrop-brightness-50 h-screen flex flex-col md:flex-row md:justify-evenly md:items-center p-5">
+        <div className="backdrop-blur backdrop-brightness-50 h-screen flex flex-col md:flex-row justify-evenly items-center p-5">
           <motion.div
             variants={fadeIn}
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
+            className="w-full md:w-96 h-96 md:h-[500px] relative"
           >
             <Image
               src={"/product-a.jpeg"}
-              width={400}
-              height={770}
+              fill
+              objectFit="contain"
               alt="productA"
             />
           </motion.div>
@@ -563,7 +564,7 @@ const page = () => {
                 width={400}
                 height={0}
                 alt="white line"
-                className="invisible md:visible my-10 translate-x-52"
+                className="hidden md:flex my-10 translate-x-52"
               />
             </motion.div>
             <motion.div
@@ -586,7 +587,7 @@ const page = () => {
                   "https://www.degruyter.com/document/doi/10.1515/9783110787634/html"
                 }
                 target="_blank"
-                className="font-bold text-sm hover:underline underline-offset-4"
+                className="font-bold text-base md:text-xs hover:underline underline-offset-4"
               >
                 BUY BOOK
               </Link>

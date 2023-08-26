@@ -67,7 +67,7 @@ const navbar = () => {
   } else {
     return (
       <motion.header
-        variants={fadeTop}
+        variants={fadeIn}
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
@@ -86,18 +86,12 @@ const navbar = () => {
             </Link>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden flex end-0 p-3 fixed"
+              className="md:hidden flex end-0 p-3 fixed z-50"
             >
-              <motion.div
-                variants={turn}
-                initial="initial"
-                whileInView="animate"
-              >
-                <AiOutlineMenu
-                  size={35}
-                  className={`m-3 ${isOpen ? "hidden" : "flex"}`}
-                />
-              </motion.div>
+              <AiOutlineMenu
+                size={35}
+                className={`m-3 ${isOpen ? "hidden" : "flex"}`}
+              />
               <AiOutlineClose
                 size={35}
                 className={`m-3 ${isOpen ? "flex" : "hidden"}`}
@@ -108,13 +102,14 @@ const navbar = () => {
             variants={fadeIn}
             initial="initial"
             whileInView="animate"
-            className={`font-medium p-5 pb-14 md:p-0  w-full text-lg md:text-xs md:flex flex-col rounded-md backdrop-blur-3xl md:backdrop-blur-none md:flex-row ${
-              !isOpen ? "hidden" : "md:flex fixed top-20 md:relative md:top-5"
+            className={`font-medium p-5 pb-14 md:p-0 top-0 h-screen md:h-fit w-full justify-center items-center md:items-start text-lg  md:text-xs backdrop-blur-3xl md:backdrop-blur-none flex flex-col md:flex-row ${
+              !isOpen ? "hidden md:flex" : "fixed top-20 md:relative"
             }`}
           >
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
                 href={"/about-us"}
+                onClick={() => setIsOpen(!isOpen)}
                 className={`hover:font-bold ${
                   segment == "/about-us"
                     ? "font-bold underline underline-offset-8 cursor-default "
@@ -126,6 +121,7 @@ const navbar = () => {
             </div>
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
+                onClick={() => setIsOpen(!isOpen)}
                 href={"/our-team"}
                 className={`hover:font-bold ${
                   segment == "/our-team"
@@ -138,6 +134,7 @@ const navbar = () => {
             </div>
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
+                onClick={() => setIsOpen(!isOpen)}
                 href={"/services"}
                 className={`hover:font-bold ${
                   segment == "/services"
@@ -150,6 +147,7 @@ const navbar = () => {
             </div>
             <div className="md:w-1/4 my-5 flex md:justify-end">
               <Link
+                onClick={() => setIsOpen(!isOpen)}
                 href={"/contact-us"}
                 className={`hover:font-bold ${
                   segment == "/contact-us"

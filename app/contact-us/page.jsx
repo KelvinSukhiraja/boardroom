@@ -42,7 +42,7 @@ const ContactUs = () => {
   return (
     <div className="bg-contact bg-cover bg-center bg-fixed">
       <div className="backdrop-brightness-50 contrast-125 min-h-screen justify-center flex flex-col w-full text-white">
-        <div className="flex flex-col md:flex-row pt-14 md:px-32">
+        <div className="flex flex-col-reverse md:flex-row pt-14 md:px-32">
           <motion.div
             variants={fadeLeft}
             initial="initial"
