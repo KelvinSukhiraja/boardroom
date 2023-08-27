@@ -75,7 +75,7 @@ const navbar = () => {
       >
         <div className="flex flex-col md:flex-row md:px-28 md:my-6 w-full absolute z-10 ">
           <div className="flex w-full justify-between">
-            <Link href={"/"}>
+            <Link href={"/"} onClick={() => setIsOpen(false)}>
               <Image
                 src={change ? "/Logo.png" : "/whitelogo.svg"}
                 alt="logo"

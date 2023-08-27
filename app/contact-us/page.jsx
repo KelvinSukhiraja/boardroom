@@ -91,24 +91,28 @@ const ContactUs = () => {
                 <Link
                   href={"/"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FaFacebookF size={20} />
                 </Link>
                 <Link
                   href={"/"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FaLinkedinIn size={20} />
                 </Link>
                 <Link
                   href={"/"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FaInstagram size={20} />
                 </Link>
                 <Link
                   href={"mailto:tanriabeng42@gmail.com"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FiMail size={20} />
                 </Link>
@@ -127,6 +131,7 @@ const ContactUs = () => {
                 <Link
                   href={"https://www.facebook.com/peter.verhezen.9"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FaFacebookF size={20} />
                 </Link>
@@ -135,18 +140,21 @@ const ContactUs = () => {
                     "https://www.linkedin.com/in/peter-verhezen-a6b7a03/?originalSubdomain=be"
                   }
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FaLinkedinIn size={20} />
                 </Link>
                 <Link
                   href={"/"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FaInstagram size={20} />
                 </Link>
                 <Link
                   href={"mailto:p.verhezen@gmail.com"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
+                  target="_blank"
                 >
                   <FiMail size={20} />
                 </Link>

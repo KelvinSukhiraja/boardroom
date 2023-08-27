@@ -116,7 +116,7 @@ const page = () => {
             non-financial performance.
           </p>
           <Link href="/about-us">
-            <p className="font-bold text-lg md:text-sm hover:underline underline-offset-4">
+            <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
               READ MORE
             </p>
           </Link>
@@ -187,7 +187,7 @@ const page = () => {
               viewport={{ once: true }}
               className="text-white md:py-12 h-fit w-fit self-start"
             >
-              <div className="font-semibold text-2xl">
+              <div className="font-semibold text-lg md:text-2xl">
                 Founding <br /> Partners Team
               </div>
               <div className="text-xs sm:text-sm font-normal max-w-md md:my-5">
@@ -198,7 +198,7 @@ const page = () => {
             </motion.div>
             <div className="flex flex-wrap justify-between w-full text-white my-10 ">
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-2xl font-semibold text-third">
+                <h1 className="text-lg md:text-2xl font-medium text-third">
                   Tanri Abeng
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
@@ -208,7 +208,7 @@ const page = () => {
                 </p>
               </div>
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-2xl font-semibold text-third">
+                <h1 className="text-lg md:text-2xl font-medium text-third">
                   Peter Verhezen
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
@@ -220,7 +220,7 @@ const page = () => {
               </div>
 
               <div className=" max-w-sm flex flex-col">
-                <h1 className="text-2xl font-semibold text-third">
+                <h1 className="text-lg md:text-2xl font-medium text-third">
                   Ian Buchanan
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
@@ -405,7 +405,7 @@ const page = () => {
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              className="bg-third md:max-w-xl text-white font-semibold text-2xl px-7 py-5 md:py-12 mx-5 md:ml-64"
+              className="bg-third md:max-w-xl text-white font-semibold text-lg md:text-2xl px-7 py-5 md:py-12 mx-5 md:ml-64"
             >
               Three main areas in which we partner with you to improve your
               firm’s overall performance:
@@ -432,10 +432,10 @@ const page = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="flex flex-col md:flex-row md:gap-10 gap-3 justify-around mt-20"
+            className="flex flex-col md:flex-row md:gap-10 justify-around mt-20"
           >
             <div className=" text-white p-5 max-w-sm">
-              <div className="text-third font-medium text-2xl ">
+              <div className="text-third font-medium text-lg md:text-2xl ">
                 Good corporate governance practices
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5">
@@ -444,7 +444,7 @@ const page = () => {
               </p> */}
             </div>
             <div className=" text-white p-5 max-w-sm">
-              <div className="text-third font-medium text-2xl">
+              <div className="text-third font-medium text-lg md:text-2xl">
                 Strategy & Integrated Risk Management
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5 ">
@@ -454,7 +454,7 @@ const page = () => {
               </p> */}
             </div>
             <div className=" text-white p-5 max-w-sm">
-              <div className="text-third font-medium text-2xl">
+              <div className="text-third font-medium text-lg md:text-2xl">
                 Sustainability and ESG-Investments
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5">
@@ -494,7 +494,6 @@ const page = () => {
             variants={fadeRight}
             initial="initial"
             whileInView="animate"
-            viewport={{ once: true }}
             className="bg-third m-5 px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
           >
             <div className="font-semibold text-lg md:text-2xl">
@@ -580,7 +579,7 @@ const page = () => {
             >
               <div className="font-semibold text-lg md:text-2xl max-w-sm">
                 Our testimonial on our beliefs for an effective and futureproof
-                Boardroom
+                boardroom
               </div>
               <p className="text-xs md:text-sm max-w-xs my-2">
                 We are not your consultant or advisor, we will be your partner
@@ -591,7 +590,7 @@ const page = () => {
                   "https://www.degruyter.com/document/doi/10.1515/9783110787634/html"
                 }
                 target="_blank"
-                className="font-bold text-base md:text-xs hover:underline underline-offset-4"
+                className="font-bold text-base md:text-sm hover:underline underline-offset-4"
               >
                 BUY BOOK
               </Link>

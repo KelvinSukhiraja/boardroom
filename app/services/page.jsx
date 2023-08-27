@@ -153,7 +153,7 @@ const Services = () => {
                 variants={modalIn}
                 initial="initial"
                 whileInView="animate"
-                className="relative bg-primary rounded-3xl w-full h-2/5 md:w-3/5 md:h-3/4 flex flex-col justify-center items-center px-2"
+                className="relative bg-white bg-opacity-75 rounded-xl w-full h-3/5 md:w-3/5 md:h-3/4 flex flex-col justify-center items-center px-2"
               >
                 <button
                   onClick={() => setModalOpen(!modalOpen)}
@@ -293,7 +293,7 @@ const Services = () => {
               viewport={{ once: true }}
               className="p-10 md:p-20"
             >
-              <h className="text-2xl text-third">
+              <h className="text-lg md:text-2xl text-third">
                 Good corporate <br />
                 governance practices
               </h>
@@ -341,7 +341,7 @@ const Services = () => {
             className="h-fit md:w-1/2 md:pt-12 flex flex-col items-center"
           >
             <div className="md:p-20 p-10">
-              <h className="text-2xl text-third">
+              <h className="text-lg md:text-2xl text-third">
                 Strategy & Integrated <br />
                 Risk Management
               </h>
@@ -380,7 +380,7 @@ const Services = () => {
               viewport={{ once: true }}
               className="md:p-20 p-10"
             >
-              <h className="text-2xl text-third">
+              <h className="text-lg md:text-2xl text-third">
                 Sustainability and <br />
                 ESG-Investments
               </h>

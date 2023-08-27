@@ -791,37 +791,6 @@ const Downloadable = () => {
                 </tr>
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
-                    Verhezen, P. et al, (2020), “China and the US: The AI race”,
-                    Amrop AI Series (5th paper)
-                  </td>
-                  <td className="border-b text-xs ">
-                    <Link
-                      href="https://www.amrop.com/sites/default/files/featured_file_attachment/201006%20AI%20and%20Wisdom%205.pdf"
-                      target="_blank"
-                      className=" hover:underline italic"
-                    >
-                      download
-                    </Link>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border-b py-5 pr-5 text-xs">
-                    Verhezen, P. (2020), “From Tension to Transformation. How
-                    Wise Decision Makers transcend Paradoxes and Ambiguities”,
-                    Amrop AI Series (6th paper)
-                  </td>
-                  <td className="border-b text-xs ">
-                    <Link
-                      href="https://www.amrop.com/sites/default/files/featured_file_attachment/Wise%20Decision-Making%20-%20Managing%20Paradoxes.pdf"
-                      target="_blank"
-                      className=" hover:underline italic"
-                    >
-                      download
-                    </Link>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border-b py-5 pr-5 text-xs">
                     &quot;Verhezen, P., (2020), &quot;&quot;Inside the Wise
                     CEO&#39;s Brain. The Neuroscience of Leadership&quot;&quot;,
                     Amrop AI essay no 7&quot;

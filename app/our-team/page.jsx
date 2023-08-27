@@ -192,7 +192,7 @@ const OurTeam = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white ml-2"
+            className="text-lg md:text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white ml-2"
           >
             The Founding Partners
           </motion.div>
@@ -298,7 +298,7 @@ const OurTeam = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="text-black text-2xl font-semibold my-8 md:mx-16 ml-2"
+          className="text-black text-lg md:text-2xl font-semibold my-8 md:mx-16 ml-2"
         >
           Our Associates & <br />
           Associated Partners
@@ -331,7 +331,7 @@ const OurTeam = () => {
               objectFit="cover"
               alt="partnerA"
             />
-            <h1 className="text-white relative self-end p-5 text-2xl font-semibold">
+            <h1 className="text-white relative self-end p-5 text-lg md:text-2xl font-semibold">
               Pri Notowidigdo
             </h1>
           </Link>
@@ -342,7 +342,7 @@ const OurTeam = () => {
               objectFit="cover"
               alt="partnerB"
             />
-            <h1 className="text-white relative self-end p-5 text-2xl font-semibold">
+            <h1 className="text-white relative self-end p-5 text-lg md:text-2xl font-semibold">
               Prof. Luc Vanliedekerke
             </h1>
           </Link>
