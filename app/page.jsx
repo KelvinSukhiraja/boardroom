@@ -230,7 +230,7 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <button className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200">
+            <button className="rounded-full border-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:border-transparent ease-in-out duration-200">
               <Link href={"/our-team"}>READ MORE</Link>
             </button>
           </motion.div>
@@ -463,7 +463,7 @@ const page = () => {
           </motion.div>
         </div>
         <div className="flex justify-center md:py-20 py-10">
-          <button className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200">
+          <button className="rounded-full border-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:border-transparent ease-in-out duration-200">
             <Link href={"/services"}>READ MORE</Link>
           </button>
         </div>
