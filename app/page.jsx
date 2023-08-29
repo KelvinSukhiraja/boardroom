@@ -230,13 +230,8 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <button>
-              <Link
-                href={"/our-team"}
-                className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200"
-              >
-                READ MORE
-              </Link>
+            <button className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200">
+              <Link href={"/our-team"}>READ MORE</Link>
             </button>
           </motion.div>
           {/* <div className="flex flex-col md:flex-row justify-center mt-14 md:-translate-x-10 gap-8">
@@ -468,13 +463,8 @@ const page = () => {
           </motion.div>
         </div>
         <div className="flex justify-center md:py-20 py-10">
-          <button>
-            <Link
-              href={"/services"}
-              className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200"
-            >
-              READ MORE
-            </Link>
+          <button className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200">
+            <Link href={"/services"}>READ MORE</Link>
           </button>
         </div>
       </div>
