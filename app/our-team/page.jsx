@@ -133,7 +133,7 @@ const OurTeam = () => {
             viewport={{ once: true }}
             className="bg-primary text-white p-6 md:px-12 md:py-8 m-5 self-center md:mr-72"
           >
-            <h1 className="text-lg md:text-2xl font-semibold">
+            <h1 className="text-lg md:text-2xl font-semibold leading-tight">
               Founding <br />
               Partners Team
             </h1>
@@ -192,7 +192,7 @@ const OurTeam = () => {
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
-            className="text-lg md:text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white ml-2"
+            className="text-lg md:text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white ml-8"
           >
             The Founding Partners
           </motion.div>
@@ -298,7 +298,7 @@ const OurTeam = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="text-black text-lg md:text-2xl font-semibold my-8 md:mx-16 ml-2"
+          className="text-black text-lg md:text-2xl font-semibold my-8 md:mx-16 ml-8 leading-tight"
         >
           Our Associates & <br />
           Associated Partners

@@ -230,12 +230,14 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <Link
-              href={"/our-team"}
-              className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200"
-            >
-              READ MORE
-            </Link>
+            <button>
+              <Link
+                href={"/our-team"}
+                className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-primary hover:outline-none ease-in-out duration-200"
+              >
+                READ MORE
+              </Link>
+            </button>
           </motion.div>
           {/* <div className="flex flex-col md:flex-row justify-center mt-14 md:-translate-x-10 gap-8">
               <motion.div
@@ -466,12 +468,14 @@ const page = () => {
           </motion.div>
         </div>
         <div className="flex justify-center md:py-20 py-10">
-          <Link
-            href={"/services"}
-            className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200"
-          >
-            READ MORE
-          </Link>
+          <button>
+            <Link
+              href={"/services"}
+              className="rounded-full outline outline-2 py-2 px-4 text-base md:text-sm font-bold text-white hover:bg-third hover:outline-none ease-in-out duration-200"
+            >
+              READ MORE
+            </Link>
+          </button>
         </div>
       </div>
       {/* Article */}
@@ -489,13 +493,21 @@ const page = () => {
             objectFit="cover"
             alt="article A"
           />
+          {/* <div className="absolute h-full w-full flex justify-center items-center">
+            <Image
+              src={"white-line.svg"}
+              width={400}
+              height={0}
+              alt="white line"
+            />
+          </div> */}
         </motion.div>
         <div className="h-fit self-center absolute md:relative md:-translate-x-32 overflow-hidden">
           <motion.div
             variants={fadeRight}
             initial="initial"
             whileInView="animate"
-            className="bg-third m-5 px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
+            className="bg-third px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
           >
             <div className="font-semibold text-lg md:text-2xl">
               Probably, your company may also need a real digital strategy and
@@ -512,7 +524,7 @@ const page = () => {
               GET IN TOUCH
             </Link> */}
           </motion.div>
-          <div className="-translate-x-2/4">
+          <div className="-translate-x-full">
             <motion.div
               variants={fadeRight}
               initial="initial"
@@ -530,7 +542,7 @@ const page = () => {
           </div>
         </div>
 
-        {/* <div className="absolute h-full w-full flex justify-center">
+        {/* <div className="absolute h-full w-full flex justify-center ">
           <Image src={"/white-line.svg"} width={400} height={0} />
         </div> */}
       </div>
