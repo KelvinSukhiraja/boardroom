@@ -139,9 +139,9 @@ const AboutUs = () => {
             >
               Why us?
               <p className="max-w-md text-xs md:text-sm font-normal my-4">
-                As your partner – not just an advisor-consultant we have our
-                skin in the game to help to improve your competitiveness in the
-                market. We will work with you to make your organization more
+                As your partner – not just an advisor or consultant - we have
+                our skin in the game to help to improve your competitiveness in
+                the market. We will work with you to make your organization more
                 successful for and with you.
               </p>
             </motion.div>
@@ -162,21 +162,20 @@ const AboutUs = () => {
               <li>
                 To review or strengthen the mission, vision and purpose of an
                 organization, to fine tune the generic direction the
-                organization wants to move to
+                organization wants to move to,
               </li>
               <li>
-                To reflect and improve the strategy and the associated risks to
-                be executed to sustain the performance of the organization
+                To reflect and improve the strategy [and the associated risks]
+                to be executed to sustain the performance of the organization,
               </li>
               <li>
                 To strengthen the right structures and secure the ‘right’
-                management system in place
+                management system in place,
               </li>
-
-              <li> To help develop people or talent to execute the strategy</li>
+              <li>To help develop people or talent to execute the strategy,</li>
               <li>
                 To ensure that the growth of the organization is maintained and
-                to deliver the expected or desired performance or results
+                to deliver the expected or desired performance or results,
               </li>
             </ul>
           </motion.div>
@@ -193,10 +192,10 @@ const AboutUs = () => {
             competitive market, your organization is prepared to continue to
             grow or to review its direction, using innovative technology and the
             right people to execute the strategy, and to remain competitive in
-            an era of digitalization and eco-systems. <br />
+            an era of digitalization and interdependent eco-systems. <br />
             <br />
-            As your partners, our own network and expertise will strengthen the
-            push for improved or sustained performance at your organization.
+            As your partners, our own network and expertise aims to strengthen
+            the push for improved or sustained performance at your organization.
           </motion.div>
         </div>
       </div>
@@ -245,8 +244,9 @@ const AboutUs = () => {
                 economy.
               </li>
               <li>
-                To also help [foreign] companies to become local participants,
-                including M&A strategic advice, and local-global partnership.
+                To also help [foreign] companies to become local participants in
+                Indonesia or ASEAN, including M&amp;A strategic advice, and
+                local-global partnership.
               </li>
             </ul>
           </div>

@@ -135,12 +135,13 @@ const tanri = () => {
                   which he successfully restructured. During the Asian crisis of
                   1998-2001, he was the first minister of State Owned
                   Enterprises of the Republic of Indonesia under President
-                  Habibie. He started his career as a manager of multinationals,
-                  reaching the position of CEO in Heinken Indonesia (PT Bir
-                  Bintang). Pak Tanri studied in the USA on an exchange program
-                  after which he returned to Hasanudin University in Makasar. He
-                  obtained his MBA from Buffalo Business School in New York, and
-                  completed his PhD in management at the Gaja Mada University in
+                  Suharto and subsequently President Habibie. He started his
+                  career as a manager in multinationals, reaching the position
+                  of CEO at Heineken Indonesia (PT Bir Bintang). Dr. Tanri
+                  studied in the USA on an exchange program after which he
+                  returned to Hasanudin University in Makasar. He obtained his
+                  MBA from Buffalo Business School in New York, and completed
+                  his PhD in management at the Gaja Mada University in
                   Yogjakarta. He lives with his family in Jakarta.
                   <br />
                   <br />

@@ -66,14 +66,16 @@ const ContactUs = () => {
             </motion.div>
             <div className="my-5">
               <h1 className="text-2xl font-semibold">Get in Touch!</h1>
-              <p className="text-xs font-normal">Ask us anything.</p>
+              <p className="text-xs font-normal">Do not hesitate to ask us:</p>
             </div>
             <div className="my-5">
               <h1 className="font-bold text-xs my-2">OUR OFFICE</h1>
               <p className="text-xs font-normal">
                 The Boardroom Partnership <br />
-                Simpruk Golf XII Kav 3A, 12310 <br />
-                Jakarta Selatan, Indonesia
+                Simpruk Golf XII Kav 3A, <br />
+                Jakarta Selatan, 12310 <br />
+                Indonesia <br />
+                With Rep Offices in Singapore and Antwerp
               </p>
             </div>
             <div className="text-sm font-normal my-5">
@@ -84,7 +86,7 @@ const ContactUs = () => {
               <h1 className="font-bold text-xs my-2">PERSONAL CONTACT</h1>
               <h1 className="font-bold text-sm ">Dr. Tanri Abeng, MBA</h1>
               <p className="text-xs font-normal">
-                Founder and Chairman of <br />
+                Co-Founder and Chairman of <br />
                 The Boardroom Partnership
               </p>
               <ul className="flex max-w-sm justify-between my-4 pr-10">
@@ -182,7 +184,7 @@ const ContactUs = () => {
                   <input
                     name="Name"
                     type="text"
-                    className="w-full border-b-2 focus:outline-none bg-transparent my-4 brightness-75 focus:brightness-200"
+                    className="w-full rounded-none border-b-2 focus:outline-none bg-transparent my-4 brightness-75 focus:brightness-200"
                     required
                   />
                 </div>
@@ -192,7 +194,7 @@ const ContactUs = () => {
                   <input
                     name="Email"
                     type="email"
-                    className="w-full border-b-2 focus:outline-none bg-transparent my-4 brightness-75 focus:brightness-200"
+                    className="w-full rounded-none border-b-2 focus:outline-none bg-transparent my-4 brightness-75 focus:brightness-200"
                     required
                   />
                 </div>

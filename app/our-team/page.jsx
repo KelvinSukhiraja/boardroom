@@ -324,7 +324,10 @@ const OurTeam = () => {
           viewport={{ once: true }}
           className="flex flex-col md:flex-row items-center gap-4 overflow-x-auto"
         >
-          <Link href="our-team/pri" className="flex relative w-96 h-96">
+          <Link
+            href="our-team/pri"
+            className="flex relative w-64 h-64 md:w-96 md:h-96"
+          >
             <Image
               src={"/partnerA.png"}
               fill
@@ -335,7 +338,10 @@ const OurTeam = () => {
               Pri Notowidigdo
             </h1>
           </Link>
-          <Link href="our-team/luc" className="flex relative w-96 h-96">
+          <Link
+            href="our-team/luc"
+            className="flex relative w-64 h-64 md:w-96 md:h-96"
+          >
             <Image
               src={"/partnerB.png"}
               fill

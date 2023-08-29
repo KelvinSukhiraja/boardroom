@@ -182,11 +182,19 @@ const Blog = () => {
                   </td>
                   <td className="border-b text-sm font-semibold">
                     <Link
+                      href={"https://vimeo.com/240796408/a638abca9b"}
+                      target="_blank"
+                      className=" hover:underline italic flex"
+                    >
+                      link (intro)
+                    </Link>
+                    <br />
+                    <Link
                       href={"https://vimeo.com/241155387/7deed1a245"}
                       target="_blank"
                       className=" hover:underline italic"
                     >
-                      link
+                      link (full)
                     </Link>
                   </td>
                 </tr>

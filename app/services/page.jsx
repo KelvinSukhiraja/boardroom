@@ -63,6 +63,7 @@ const Services = () => {
     },
   };
   const [modalOpen, setModalOpen] = useState(false);
+  const [modal2Open, setModal2Open] = useState(false);
   return (
     <div>
       <div className="bg-service bg-cover bg-center bg-fixed overflow-x-hidden">
@@ -153,7 +154,7 @@ const Services = () => {
                 variants={modalIn}
                 initial="initial"
                 whileInView="animate"
-                className="relative bg-white bg-opacity-75 rounded-xl w-full h-3/5 md:w-3/5 md:h-3/4 flex flex-col justify-center items-center px-2"
+                className="relative bg-white rounded-xl w-full h-full md:w-3/5 md:h-3/4 flex flex-col justify-center items-center px-2"
               >
                 <button
                   onClick={() => setModalOpen(!modalOpen)}
@@ -161,12 +162,12 @@ const Services = () => {
                 >
                   <AiOutlineClose
                     size={35}
-                    className={`m-5 absolute top-0 right-0 z-50 text-white ${
+                    className={`m-5 text-black ${
                       modalOpen ? "flex" : "hidden"
                     }`}
                   />
                 </button>
-                <div className="w-full h-full  relative ">
+                <div className="w-full h-96 md:h-full  relative ">
                   <Image src={"/graph.svg"} fill />
                 </div>
               </motion.div>
@@ -293,9 +294,9 @@ const Services = () => {
               viewport={{ once: true }}
               className="p-10 md:p-20"
             >
-              <h className="text-lg md:text-2xl text-third">
-                Good corporate <br />
-                governance practices
+              <h className="text-lg md:text-2xl text-third leading-tight">
+                Good Corporate <br />
+                Governance Practices
               </h>
               <p className="text-sm my-4">
                 Any business – both in the emerging markets and developed
@@ -341,7 +342,7 @@ const Services = () => {
             className="h-fit md:w-1/2 md:pt-12 flex flex-col items-center"
           >
             <div className="md:p-20 p-10">
-              <h className="text-lg md:text-2xl text-third">
+              <h className="text-lg md:text-2xl text-third leading-tight">
                 Strategy & Integrated <br />
                 Risk Management
               </h>
@@ -371,7 +372,7 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <div className="h-fit flex flex-col-reverse md:flex-row">
+        <div className="h-fit flex flex-col-reverse md:flex-row relative">
           <div className="h-fit md:w-1/2 bg-primary md:pt-12 flex flex-col items-center">
             <motion.div
               variants={fadeIn}
@@ -380,23 +381,29 @@ const Services = () => {
               viewport={{ once: true }}
               className="md:p-20 p-10"
             >
-              <h className="text-lg md:text-2xl text-third">
+              <h className="text-lg md:text-2xl text-third leading-tight">
                 Sustainability and <br />
                 ESG-Investments
               </h>
               <p className="text-sm my-4">
                 Successful organizations need to demonstrate a willingness to
                 engage critical stakeholders in some of the decision-making, to
-                embrace a culture of openness, accountability and transparency,
-                to be fair and consistent in relations with those key
-                stakeholders, and to have an organizational infrastructure that
-                safeguard and ensure corporate trust and reputation. Although
-                best corporate governance practices at firm level may not
-                consistently guarantee superior return on investments, it can
-                provide a safety net and prescribe certain behaviour within the
-                organizational culture to adhere to high standards of
-                transparency, fairness, proper equity rights, accountability and
-                responsibility. <br /> <br />
+                embrace a culture of openness,{" "}
+                <button
+                  onClick={() => setModal2Open(true)}
+                  className="underline italic font-bold"
+                >
+                  accountability
+                </button>{" "}
+                and transparency, to be fair and consistent in relations with
+                those key stakeholders, and to have an organizational
+                infrastructure that safeguard and ensure corporate trust and
+                reputation. Although best corporate governance practices at firm
+                level may not consistently guarantee superior return on
+                investments, it can provide a safety net and prescribe certain
+                behaviour within the organizational culture to adhere to high
+                standards of transparency, fairness, proper equity rights,
+                accountability and responsibility. <br /> <br />
                 Reputation of a firm takes years to develop but can be lost in
                 minutes. Especially when companies cause negative externalities
                 that harm environment and community, a crisis can easily erupt.
@@ -415,6 +422,33 @@ const Services = () => {
                 latest agreed IFRS principles and IASB & ISSB standards.
               </p>
             </motion.div>
+            <div
+              className={`z-30 w-screen h-screen left-0 md:top-0 absolute flex justify-center items-center ${
+                modal2Open ? "flex" : "hidden"
+              }`}
+            >
+              <motion.div
+                variants={modalIn}
+                initial="initial"
+                whileInView="animate"
+                className="relative bg-white rounded-xl w-full h-4/5 md:w-3/5 md:h-4/5 flex flex-col justify-center items-center px-2"
+              >
+                <button
+                  onClick={() => setModal2Open(!modal2Open)}
+                  // className="w-full justify-end flex"
+                >
+                  <AiOutlineClose
+                    size={35}
+                    className={`m-5 text-black ${
+                      modal2Open ? "flex" : "hidden"
+                    }`}
+                  />
+                </button>
+                <div className="w-full h-96 md:h-full  relative ">
+                  <Image src={"/graph2.jpg"} fill />
+                </div>
+              </motion.div>
+            </div>
           </div>
           <div className="md:w-1/2 w-full h-96 md:h-auto relative z-0 bg-slate-600">
             <Image src={"/article-d.jpg"} fill objectFit="cover" />

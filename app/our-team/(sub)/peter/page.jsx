@@ -140,19 +140,22 @@ const peter = () => {
                   governance and sustainability, and business in emerging
                   markets in academic journals, and wrote about these topics in
                   six books. He also trained and coached top executives and new
-                  incoming board members on Governance & Ethics in Singapore,
-                  Hong Kong and Shanghai on behalf of the Australian Institute
-                  of Company Directors. He has been a guest speaker or visiting
-                  professor at a number of institutes like Fudan University in
-                  Shanghai, Insead Singapore, Singapore Management University,
-                  Hong Kong University, IBS Moscow, Hanoi Banking Institute, the
-                  World Bank in Washington, Stockholm University, Budapest
-                  Corvinus University, Neoma Business School in France, and
-                  Institut Teknologi Bandung, IPMI, UGM, Universitas Indonesia,
-                  ECGL and UPH in Indonesia to name a few. <br /> <br />
-                  He started his advisory career at SWIFT on behalf of IBM
-                  consultancy in the early nineties. As a practitioner, Peter
-                  worked as senior consultant in the field of corporate
+                  incoming board members on Governance &amp; Ethics in
+                  Singapore, Hong Kong and Shanghai on behalf of the Australian
+                  Institute of Company Directors. He has been a guest speaker or
+                  visiting professor at a number of institutes like The European
+                  Parliament, Fudan University in Shanghai, Insead Singapore,
+                  Singapore Management University, Hong Kong University, IBS and
+                  HSE in Moscow, Hanoi Banking Institute, the World Bank in
+                  Washington, Stockholm University, Budapest Corvinus
+                  University, Neoma Business School in France, and Institut
+                  Teknologi Bandung, IPMI, UGM, Universitas Indonesia, ECGL and
+                  UPH in Indonesia to name a few. <br /> <br />
+                  Early in his career in the late 80s, he was briefly the MBA
+                  director and acting dean at the IEU Business School in Jakarta
+                  (Indonesia). He started his advisory career at SWIFT on behalf
+                  of IBM consultancy in the early nineties. As a practitioner,
+                  Peter worked as senior consultant in the field of corporate
                   governance for IFC–World Bank in Asia Pacific, and as a debt
                   negotiator-advisor for IBRA–IMF during the (1998–2001) “Asian
                   crisis”. In 1993, he co-founded and ran an IBM spin-off

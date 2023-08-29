@@ -110,10 +110,11 @@ const page = () => {
             PARTNERSHIP
           </h1>
           <p className="text-xs md:text-sm my-4 max-w-md">
-            We - The Boardroom Partnership - partner and closely collaborate
-            with you and your organization to deliver on improved governance and
-            risk practices, and strategies resulting in better financial and
-            non-financial performance.
+            We, The Boardroom Partnership, partner and closely collaborate with
+            you and your organization to deliver on improved governance and risk
+            practices. We also function as a sounding board to strengthen your
+            strategies, aiming to improve your financial and non-financial
+            performance.
           </p>
           <Link href="/about-us">
             <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
@@ -187,14 +188,14 @@ const page = () => {
               viewport={{ once: true }}
               className="text-white md:py-12 h-fit w-fit self-start"
             >
-              <div className="font-semibold text-lg md:text-2xl">
-                Founding <br /> Partners Team
+              <div className="font-semibold text-lg md:text-2xl max-w-xs">
+                Founding Partners Team
               </div>
-              <div className="text-xs sm:text-sm font-normal max-w-md md:my-5">
+              {/* <div className="text-xs sm:text-sm font-normal max-w-md md:my-5">
                 Though we may not be real ‘management wizards’, we come close to
                 it as our reputation to make things happening is well-known in
                 the industry.
-              </div>
+              </div> */}
             </motion.div>
             <div className="flex flex-wrap justify-between w-full text-white my-10 ">
               <div className=" max-w-sm flex flex-col">
@@ -204,7 +205,7 @@ const page = () => {
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
                   Dr. Tanri Abeng is the chairman of Biofarma, a pharmaceutical
                   State Owned Enterprise in Indonesia. Dr Tanri is co-founder
-                  and Chair of The Boardroom Partnership
+                  and Chair of The Boardroom Partnership.
                 </p>
               </div>
               <div className=" max-w-sm flex flex-col">
@@ -215,7 +216,7 @@ const page = () => {
                   Dr Peter Verhezen is a Professor of strategy, sustainability
                   and corporate governance at the University of Antwerp and the
                   Antwerp Management School (Belgium). Peter is co-founder and
-                  Senior Partner of The Boardroom Partnership
+                  Senior Partner of The Boardroom Partnership.
                 </p>
               </div>
 
@@ -436,7 +437,7 @@ const page = () => {
           >
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-lg md:text-2xl ">
-                Good corporate governance practices
+                Good Corporate Governance Practices
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5">
                 Any business – both in the emerging markets and developed
@@ -497,11 +498,12 @@ const page = () => {
             className="bg-third m-5 px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
           >
             <div className="font-semibold text-lg md:text-2xl">
-              Probably, your company may need a real digital strategy and
-              digital operating system to face fierce competition.
+              Probably, your company may also need a real digital strategy and
+              digital operating system to face fierce competition. We could
+              strategically think with you to materialize such an investment.
             </div>
             <p className="font-normal text-xs md:text-sm max-w-[270px] py-2">
-              For more information please fill free to contact us.
+              For more information please feel free to contact us.
             </p>
             {/* <Link
               href={"/contact-us"}
@@ -582,8 +584,8 @@ const page = () => {
                 boardroom
               </div>
               <p className="text-xs md:text-sm max-w-xs my-2">
-                We are not your consultant or advisor, we will be your partner
-                to enhance your position in a globalized competitive market.
+                We could be your partner to enhance your position in a
+                globalized competitive market.
               </p>
               <Link
                 href={
