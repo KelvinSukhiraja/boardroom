@@ -167,7 +167,7 @@ const ContactUs = () => {
             className="flex flex-col justify-center w-full p-6"
           >
             <form
-              action="https://formsubmit.co/hologram171@gmail.com"
+              action="https://formsubmit.co/P.Verhezen@gmail.com"
               method="POST"
             >
               {/* <input type="hidden" name="_captcha" value="false"></input>
