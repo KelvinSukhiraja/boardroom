@@ -175,7 +175,7 @@ const AboutUs = () => {
               <li>To help develop people or talent to execute the strategy,</li>
               <li>
                 To ensure that the growth of the organization is maintained and
-                to deliver the expected or desired performance or results,
+                to deliver the expected or desired performance or results.
               </li>
             </ul>
           </motion.div>

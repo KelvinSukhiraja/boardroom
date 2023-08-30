@@ -181,12 +181,15 @@ const Downloadable = () => {
                 </tr>
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
-                    Verhezen, P., (2014), Dual Versus Single-tier boards,
-                    working paper ECGL &amp; MBS
+                    {/* Verhezen, P., (2014), Dual Versus Single-tier boards,
+                    working paper ECGL &amp; MBS */}
+                    Verhezen, P. &amp; G. Martin (2016), Corporate Governance
+                    and Ethics at listed Indonesian companies (2011-2014),
+                    IFC-MBS Research
                   </td>
                   <td className="border-b text-xs ">
                     <Link
-                      href="/papers/DualBoardsorUnilateralBoardsFV01.pdf"
+                      href="/papers/Corp Governance & Ethics in Listed Indonesian Firms (2011-2014).pdf"
                       target="_blank"
                       className=" hover:underline italic"
                     >
@@ -259,7 +262,7 @@ const Downloadable = () => {
                     </Link>
                   </td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P., (2012), “A Multipolar World and Global
                     Governance”, Working Paper:
@@ -273,7 +276,7 @@ const Downloadable = () => {
                       download
                     </Link>
                   </td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P. (2012), “The prevalence of guanxi in Asian
@@ -383,7 +386,7 @@ const Downloadable = () => {
                     </Link>
                   </td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P., (1995), “Xenophobic Antagonism and ‘le sourire
                     compassionant’’”, a political-philosophical article on
@@ -399,7 +402,7 @@ const Downloadable = () => {
                       download
                     </Link>
                   </td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P, (2010), “Giving Voice to a Culture of Silence:
@@ -840,6 +843,21 @@ const Downloadable = () => {
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P., (2021), Het Amorele van AI met (soms) immorele
                     gevolgen, AG Connect
+                  </td>
+                  <td className="border-b text-xs ">
+                    <Link
+                      href="/papers/AG0421_IT-studie_3 [Alleen-lezen].pdf"
+                      target="_blank"
+                      className=" hover:underline italic"
+                    >
+                      download
+                    </Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-b py-5 pr-5 text-xs">
+                    Verhezen, P., (2021), Inside the Wise Leader's Brain (Paper
+                    no7)
                   </td>
                   <td className="border-b text-xs ">
                     <Link

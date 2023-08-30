@@ -75,6 +75,7 @@ const ContactUs = () => {
                 Simpruk Golf XII Kav 3A, <br />
                 Jakarta Selatan, 12310 <br />
                 Indonesia <br />
+                <br />
                 With Rep Offices in Singapore and Antwerp
               </p>
             </div>
@@ -89,27 +90,15 @@ const ContactUs = () => {
                 Co-Founder and Chairman of <br />
                 The Boardroom Partnership
               </p>
-              <ul className="flex max-w-sm justify-between my-4 pr-10">
+              <ul className="flex max-w-sm my-4 pr-10 justify-between">
                 <Link
-                  href={"/"}
-                  className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
-                  target="_blank"
-                >
-                  <FaFacebookF size={20} />
-                </Link>
-                <Link
-                  href={"/"}
+                  href={
+                    "https://www.linkedin.com/school/tanri-abeng-university/"
+                  }
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
                   target="_blank"
                 >
                   <FaLinkedinIn size={20} />
-                </Link>
-                <Link
-                  href={"/"}
-                  className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
-                  target="_blank"
-                >
-                  <FaInstagram size={20} />
                 </Link>
                 <Link
                   href={"mailto:tanriabeng42@gmail.com"}
@@ -118,6 +107,12 @@ const ContactUs = () => {
                 >
                   <FiMail size={20} />
                 </Link>
+                <div className="p-2 border-2 border-transparent">
+                  <FaFacebookF size={20} className="fill-transparent" />
+                </div>
+                <div className="p-2 border-2 border-transparent">
+                  <FaInstagram size={20} className="fill-transparent" />
+                </div>
               </ul>
             </div>
             <div className="">
@@ -147,7 +142,7 @@ const ContactUs = () => {
                   <FaLinkedinIn size={20} />
                 </Link>
                 <Link
-                  href={"/"}
+                  href={"https://www.instagram.com/verhezenp/"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
                   target="_blank"
                 >

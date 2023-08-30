@@ -162,20 +162,25 @@ const tanri = () => {
                 </div> */}
                 <div className="flex items-center my-4 gap-8">
                   <Link
-                    href={""}
+                    href={"https://tau.ac.id/"}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
                   >
                     <BsGlobe2 size={20} />
                   </Link>
                   <Link
-                    href={""}
+                    href={
+                      "https://www.linkedin.com/school/tanri-abeng-university/"
+                    }
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
                   >
                     <FaLinkedinIn size={20} />
                   </Link>
                   <Link
                     href={"mailto:tanriabeng42@gmail.com"}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
                   >
                     <FiMail size={20} />
                   </Link>

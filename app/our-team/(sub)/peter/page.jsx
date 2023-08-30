@@ -187,12 +187,12 @@ const peter = () => {
                   </Link>
                 </div>
                 <div className="flex items-center my-4 gap-8">
-                  <Link
+                  {/* <Link
                     href={""}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
                   >
                     <BsGlobe2 size={20} />
-                  </Link>
+                  </Link> */}
                   <Link
                     href={
                       "https://www.linkedin.com/in/peter-verhezen-a6b7a03/?originalSubdomain=be"

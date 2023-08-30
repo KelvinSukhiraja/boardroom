@@ -105,7 +105,7 @@ const Services = () => {
                 >
                   temporary
                 </button>
-                . And it will requires risk-taking and significant efforts to
+                . And it will require risk-taking and significant efforts to
                 maintain or sustain past success. The major distinguishing
                 factor to sustain economic performance is relentless strategic
                 innovation.
@@ -409,7 +409,7 @@ const Services = () => {
                 that harm environment and community, a crisis can easily erupt.
                 Hence why boards and their companies should prevent such
                 self-inflicted crises and prepare if an unintentional one would
-                emerge. In additional of having established proper governance
+                emerge. In addition of having established proper governance
                 foundations for the company, a board should focus on the
                 ecological and social-ethical aspects of these new ESG-criteria.
                 At the end of the day, any company should aim to have a net

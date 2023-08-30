@@ -6,6 +6,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import { BsGlobe2 } from "react-icons/bs";
 
 const page = () => {
   const segment = usePathname();
@@ -18,18 +19,22 @@ const page = () => {
   var desc = "not available";
   var profilePic;
   var linkedin;
+  var personalWeb;
 
   if (ian) {
     linkedin = "https://www.linkedin.com/in/ikbuchanan/";
     profilePic = "/profile-C.png";
     pName = "Ian Buchanan";
     desc = "Ian Buchanan is the Emeritus Chairman of PWC Strategy.";
+    personalWeb = "http://www.aseandevelopment.com.au/ian-buchanan/";
   } else if (luc) {
     linkedin =
       "https://www.linkedin.com/in/luc-van-liedekerke-855b3158/?originalSubdomain=be";
     profilePic = "/partnerB.png";
     pName = "Prof. Dr. Luc Vanliedekerke";
     desc = "Field of expertise: ESG-Reporting & Sustainability";
+    personalWeb =
+      "https://www.uantwerpen.be/en/staff/luc-vanliedekerke/publications/";
   } else if (pri) {
     linkedin =
       "https://www.linkedin.com/in/pri3notowidigdo/?originalSubdomain=id";
@@ -37,6 +42,8 @@ const page = () => {
     pName = "Pri Notowidigdo";
     desc =
       "Field of Expertise: HR, Communication and Transformation Management";
+    personalWeb =
+      "https://www.pri-for-people-matters.com/our-partners/pri-notowidigdo";
   }
 
   const fadeLeft = {
@@ -157,6 +164,13 @@ const page = () => {
                   <br />
                 </p>
                 <div className="flex items-center my-4 gap-8">
+                  <Link
+                    href={personalWeb}
+                    className="border rounded-full p-2 brightness-75 hover:brightness-150"
+                    target="_blank"
+                  >
+                    <BsGlobe2 size={20} />
+                  </Link>
                   <Link
                     href={linkedin}
                     className="border rounded-full p-2 brightness-75 hover:brightness-150"
