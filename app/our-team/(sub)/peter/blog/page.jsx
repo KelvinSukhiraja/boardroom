@@ -258,7 +258,7 @@ const Blog = () => {
                     </Link>
                   </td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, (2021, 21 June), “Beyond a SWOT-Analysis in
                     Strategy” (the University of Antwerp)
@@ -274,7 +274,7 @@ const Blog = () => {
                       link
                     </Link>
                   </td>
-                </tr>
+                </tr> */}
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Why AI can make us smarter, but not wiser? (Antwerp 2023)
