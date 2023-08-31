@@ -22,7 +22,7 @@ const page = () => {
   var personalWeb;
 
   if (ian) {
-    linkedin = "https://www.linkedin.com/in/ikbuchanan/";
+    linkedin = "https://www.linkedin.com/in/ian-buchanan-b7134817/";
     profilePic = "/profile-C.png";
     pName = "Ian Buchanan";
     desc = "Ian Buchanan is the Emeritus Chairman of PWC Strategy.";
