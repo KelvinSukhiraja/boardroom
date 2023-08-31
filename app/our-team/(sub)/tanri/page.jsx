@@ -130,7 +130,7 @@ const tanri = () => {
                   leadership. To materialize that dream, he established an
                   educational center and became the Rector of the Tanri Abeng
                   University and chair of the well-recognized Executive Center
-                  of Global Leasdership in Jakarta. <br /> <br />
+                  of Global Leadership in Jakarta. <br /> <br />
                   Prior to that, he was chairman of PT Pertamina and PT Telkom
                   which he successfully restructured. During the Asian crisis of
                   1998-2001, he was the first minister of State Owned
