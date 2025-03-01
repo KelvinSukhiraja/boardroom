@@ -114,6 +114,20 @@ const Downloadable = () => {
               className="mb-20"
             >
               <tbody className="table md:w-3/4 ">
+              <tr>
+                  <td className="border-b py-5 pr-5 text-xs">
+                  Verhezen 2024 A Corp Governance Perspective on Org Integrity
+                  </td>
+                  <td className="border-b text-xs ">
+                    <Link
+                      href="/papers/Verhezen 2024 A Corp Governance Perspective on Org Integrity.pdf"
+                      target="_blank"
+                      className=" hover:underline italic"
+                    >
+                      download
+                    </Link>
+                  </td>
+                </tr>
                 <tr>
                   <td className="border-b py-5 pr-5 text-xs">
                     Verhezen, P., (2000), “Gift and vertrouwen” in Vandevelde,
