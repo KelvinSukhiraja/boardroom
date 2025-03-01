@@ -70,11 +70,10 @@ const AboutUs = () => {
         >
           <a className="text-lg md:text-2xl font-semibold">
             THE BOARDROOM <br />
-            PARTNERSHIP
+            PARTNERSHIP THINK TANK
           </a>
           <p className="text-xs md:text-sm my-4 max-w-md">
-            We are not your consultant or advisor, we will be your partner to
-            enhance your position in a globalized competitive market.
+          We are not your consultant or traditional advisor. We will be a thought leader partnering with you to remain relevant and competitive in your industry while enhancing your position in a globalized changing competitive world.
           </p>
           <Link href="#2">
             <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
@@ -139,10 +138,7 @@ const AboutUs = () => {
             >
               Why us?
               <p className="max-w-md text-xs md:text-sm font-normal my-4">
-                As your partner – not just an advisor or consultant - we have
-                our skin in the game to help to improve your competitiveness in
-                the market. We will work with you to make your organization more
-                successful for and with you.
+              As your partner in Thought Leadership around sustainability and governance, we can help to improve your risk and governance approach in a market that is fueled by new [digital] innovation. We will collaborate and work with you to make your organization more successful for and with you by creating a more “sustainable and responsible” experience for your products and services.
               </p>
             </motion.div>
           </div>
@@ -155,27 +151,26 @@ const AboutUs = () => {
             className="flex flex-col text-sm font-normal md:py-8 "
           >
             <p className="max-w-md font-semibold">
-              We have the experience to partner with boards <br /> and
-              C-executives
+              We have the experience to partner with boards <br /> and top management
             </p>
             <ul className="list-disc my-4 max-w-xl list-inside text-xs md:text-base">
               <li>
-                To review or strengthen the mission, vision and purpose of an
-                organization, to fine tune the generic direction the
-                organization wants to move to,
+              To review or enhance the purpose of an organization, to fine-tune the generic direction of
+sustainability the organization wants to move on to.
               </li>
               <li>
-                To reflect and improve the strategy [and the associated risks]
-                to be executed to sustain the performance of the organization,
+              To think and reflect about embracing new technology like (Gen) Artificial Intelligence
+while installing proper AI governance guardrails.
               </li>
               <li>
-                To strengthen the right structures and secure the ‘right’
-                management system in place,
+              To critically reflect and improve the associated risks and opportunities with respect to
+more reasonable and responsible business decisions.
               </li>
-              <li>To help develop people or talent to execute the strategy,</li>
+              <li>To strengthen the appropriate and adapted structures to put the right risk and
+sustainability management in place.</li>
               <li>
-                To ensure that the growth of the organization is maintained and
-                to deliver the expected or desired performance or results.
+              To help develop people and talent at the organization to execute such a sustainability
+strategy.
               </li>
             </ul>
           </motion.div>
@@ -188,11 +183,10 @@ const AboutUs = () => {
             viewport={{ once: true }}
             className="bg-third max-w-xl p-6 md:p-9 text-xs md:text-sm md:ml-24"
           >
-            We partner with you to make sure that within this globalized
-            competitive market, your organization is prepared to continue to
-            grow or to review its direction, using innovative technology and the
-            right people to execute the strategy, and to remain competitive in
-            an era of digitalization and interdependent eco-systems. <br />
+            We partner with you to make sure that within this globalized competitive market, your
+organization is prepared to continue to sustainably grow or to review its direction, using
+innovative technology and the right people to execute the strategy, and to remain competitive in
+an era of digitalization through artificial intelligence and interdependent eco-systems.<br />
             <br />
             As your partners, our own network and expertise aims to strengthen
             the push for improved or sustained performance at your organization.
@@ -226,28 +220,27 @@ const AboutUs = () => {
           <div className="py-8 text-lg md:text-2xl font-semibold">
             What we do differently?
             <p className="max-w-md text-xs md:text-sm font-normal my-4">
-              We are looking for concrete results to enhance your
-              competitiveness in the market. Hence why we need to work together
-              with you.
+            We are looking to help you and your organization to enhance its competitive relevance by looking
+at the organization in a slightly different way.
             </p>
           </div>
           <div className="flex flex-col text-xs md:text-sm font-normal mb-8 ">
             <p className="max-w-md text-base">
-              The Boardroom Partnership works with you
+            We believe that any organization can go through some transformations to keep its
+competitiveness and relevance.
             </p>
-            <ul className="list-disc mt-4 max-w-xl list-inside">
+            <ul className="list-decimal mt-4 max-w-xl list-inside">
               <li>
-                To take your (Asian-based or Indonesian) company from a local
-                player to a global competitive firm, including to assist you in
-                negotiating with international investors and to implement
-                ESG-criteria and policies to remain relevant in a global
-                economy.
+              From accomplished to smart decision-making where responsible artificial intelligence
+and improved resilience can make a difference in the market;
               </li>
               <li>
-                To also help [foreign] companies to become local participants in
-                Indonesia or ASEAN, including M&amp;A strategic advice, and
-                local-global partnership.
+              From smart to wise decision-making where stakeholders’ engagement and a more
+sustainable &amp; governance risk approach may pay off;
               </li>
+              <li>From wise leadership to a thriving organizational team effort where the inner core
+aspirations of the individual team members can be aligned with the organizational
+purpose and outer financial success of the organization.</li>
             </ul>
           </div>
         </motion.div>
@@ -258,10 +251,11 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="bg-primary text-white max-w-xl p-9 text-xs md:text-sm md:ml-24 mb-24"
         >
-          We would be your partner in improving your positioning in the industry
-          and your overall competitiveness and make you a more performing
-          sustainable company, both from an economic as well as from a
-          socio-ecological perspective.
+          We would be your sparring partner in improving your
+organizational purpose into a more meaningful objective
+and make you a more performing sustainable company,
+both from an economic as well as from a socio-ecological
+perspective.
         </motion.div>
       </div>
     </div>

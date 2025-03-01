@@ -77,11 +77,9 @@ const Footer = () => {
           </ul>
 
           <div className="">
-            <h1 className="font-bold text-xs md:text-sm md:my-4">OUR OFFICE</h1>
+            <h1 className="font-bold text-xs md:text-sm md:my-4">OUR OFFICES</h1>
             <p className="font-normal text-xs md:text-sm">
-              The Boardroom Partnership <br />
-              Simpruk Golf XII Kav 3A, 12310 <br />
-              Jakarta Selatan, Indonesia
+            Antwerp – Bali – Jakarta – Melbourne – Singapore
             </p>
           </div>
         </div>

@@ -134,23 +134,13 @@ const OurTeam = () => {
             className="bg-primary text-white p-6 md:px-12 md:py-8 m-5 self-center md:mr-72"
           >
             <h1 className="text-lg md:text-2xl font-semibold leading-tight">
-              Founding <br />
-              Partners Team
+            Founding Partners’ <br/>
+Team of the Think Tank
             </h1>
             <p className="text-xs my-4 max-w-md">
-              Though we may not be real ‘management wizards’, we come close to
-              it as our joint reputation to make things happening is well-known
-              in the industry. Coming from different backgrounds, the three
-              founding partners – Tanri Abeng, Peter Verhezen, Ian Buchanan -
-              have all the necessary strategic and risk business experience and
-              C-suite expertise – positioning us well to really form a strong
-              partnership with your board and your top management. <br />
+            This Think Tank “the Boardroom Partnership” and our international team functions as a real bridge between Thought Leadership and actual practitioners in the field. Our reputation - as advisor-author, academic, board member or entrepreneur - has a proven record of making things happening in the industry. Coming from different backgrounds, the founding partners of this Think Tank have all the necessary academic qualifications and strategic business experience to position us well to really form a strong partnership with your board and your top management. <br />
               <br />
-              The founding partners’ experience and expertise is well
-              established and vast - allowing you to enhance the chances to get
-              more competitive. We also work with associates around the globe
-              for particular specialized industries, making sure that our
-              partnership results in real performance.
+              Our thought leadership capabilities and expertise is well established – allowing to enhance your chances to take on future-proof challenges, and to remain relevant and competitive in your industry. We also collaborate with associates around the globe ensuring that our partnership with you will result in practical solutions and real performance.
             </p>
           </motion.div>
           <motion.div
@@ -250,17 +240,16 @@ const OurTeam = () => {
                 className="relative w-64 h-64 md:w-96 md:h-[450px]"
               >
                 <Image
-                  src={"/profile-B.png"}
+                  src={"/profile-B-new.png"}
                   fill
                   objectFit="cover"
                   alt="profile B"
                 />
-                <Link href="our-team/tanri">
+                <Link href="our-team/luc">
                   <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Tanri Abeng</h1>
+                    <h1 className="text-xl font-semibold">Luc Van Liedekerke </h1>
                     <p className="text-sm overflow-y-hidden my-2">
-                      Dr. Tanri Abeng is the chairman of Biofarma, a
-                      pharmaceutical State Owned Enterprise in Indonesia.
+                    Dr. Luc Van Liedekerke is professor ethics and sustainability at the University of Antwerp and KULeuven (both in Belgium).
                     </p>
                   </div>
                 </Link>
@@ -273,18 +262,18 @@ const OurTeam = () => {
                 className="relative w-64 h-64 md:w-96 md:h-[450px] my-8 mb-28"
               >
                 <Image
-                  src={"/profile-C.png"}
+                  src={"/profile-C.jpeg"}
                   fill
                   objectFit="cover"
                   alt="profile C"
                 />
                 <Link
-                  href={"our-team/ian"}
+                  href={"our-team/danny"}
                   className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4"
                 >
-                  <h1 className="text-xl font-semibold">Ian Buchanan</h1>
+                  <h1 className="text-xl font-semibold">Danny Samson</h1>
                   <p className="text-sm overflow-y-hidden my-2">
-                    Ian Buchanan is the Emeritus Chairman of PWC Strategy.
+                  Dr. Danny Samson is a highly esteemed Professor of Management at the University of Melbourne, where he has dedicated over three decades to academia.
                   </p>
                 </Link>
               </motion.div>
@@ -339,20 +328,27 @@ const OurTeam = () => {
             </h1>
           </Link>
           <Link
-            href="our-team/luc"
+            href="our-team/natalia"
             className="flex relative w-64 h-64 md:w-96 md:h-96"
           >
             <Image
-              src={"/partnerB.png"}
+              src={"/partnerB.jpg"}
               fill
               objectFit="cover"
               alt="partnerB"
             />
             <h1 className="text-white relative self-end p-5 text-lg md:text-2xl font-semibold">
-              Prof. Luc Vanliedekerke
+            Natalia Soebagjo
             </h1>
           </Link>
         </motion.div>
+        <div className="my-20 flex flex-col gap-10">
+        <h1 className="text-3xl font-semibold max-w-xl">The Boardroom Partnership Think Tank
+collaborates with:</h1>
+<div className=" flex gap-10">
+<Link target="_blank" className="font-medium text-xl hover:underline" href="https://esgperform.global/about/">ESG Perform</Link>
+<Link target="_blank" className="font-medium text-xl hover:underline" href="https://selionglobal.com/leadership-advisory">SELION GLOBAL</Link></div>
+        </div>
       </div>
     </div>
   );

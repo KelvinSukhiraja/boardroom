@@ -17,7 +17,9 @@ const navbar = () => {
     "/our-team/tanri" === segment ||
     "/our-team/ian" === segment ||
     "/our-team/luc" === segment ||
-    "/our-team/pri" === segment;
+    "/our-team/pri" === segment||
+    "/our-team/danny" === segment||
+    "/our-team/natalia" === segment
 
   const fadeTop = {
     initial: {

@@ -107,15 +107,10 @@ const page = () => {
         >
           <h1 className="text-lg md:text-2xl font-semibold">
             THE BOARDROOM <br />
-            PARTNERSHIP
+            PARTNERSHIP THINK TANK
           </h1>
           <p className="text-xs md:text-sm my-4 max-w-md">
-            We, The Boardroom Partnership, partner and closely collaborate with
-            you and your organization to deliver on improved governance and risk
-            practices. We also function as a sounding board to strengthen your
-            strategies, aiming to improve your financial and non-financial
-            performance.
-          </p>
+          We at the Boardroom Partnership would partner and closely collaborate with you and your organization to reflect and deliver on improved governance and risk practices. We also would function as a sounding board to strengthen your sustainability impact and responsible AI strategies,  aiming to ultimately improve your service and product experience and perception that will most likely result in better financial and non-financial performance.          </p>
           <Link href="/about-us">
             <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
               READ MORE
@@ -197,15 +192,13 @@ const page = () => {
                 the industry.
               </div> */}
             </motion.div>
-            <div className="flex flex-wrap justify-between w-full text-white my-10 ">
+            <div className="grid grid-cols-3 gap-8 justify-between w-full text-white my-10 ">
               <div className=" max-w-sm flex flex-col">
                 <h1 className="text-lg md:text-2xl font-medium text-third">
-                  Tanri Abeng
+                Luc Van Liedekerke
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                  Dr. Tanri Abeng is the chairman of Biofarma, a pharmaceutical
-                  State Owned Enterprise in Indonesia. Dr Tanri is co-founder
-                  and Chair of The Boardroom Partnership.
+                Dr. Luc Van Liedekerke is professor ethics and sustainability at the University of Antwerp and KULeuven (both in Belgium).
                 </p>
               </div>
               <div className=" max-w-sm flex flex-col">
@@ -213,7 +206,7 @@ const page = () => {
                   Peter Verhezen
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                  Dr Peter Verhezen is a Professor of strategy, sustainability
+                  Dr. Peter Verhezen is a Professor of strategy, sustainability
                   and corporate governance at the University of Antwerp and the
                   Antwerp Management School (Belgium). Peter is co-founder and
                   Senior Partner of The Boardroom Partnership.
@@ -222,11 +215,10 @@ const page = () => {
 
               <div className=" max-w-sm flex flex-col">
                 <h1 className="text-lg md:text-2xl font-medium text-third">
-                  Ian Buchanan
+                Danny Samson
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                  Ian Buchanan is the Emeritus Chairman of PWC Strategy. Ian is
-                  Associated Senior Partner at The Boardroom Partnership.
+                Dr. Danny Samson is a highly esteemed Professor of Management at the University of Melbourne, where he has dedicated over three decades to academia.
                 </p>
               </div>
             </div>
@@ -234,169 +226,6 @@ const page = () => {
               <Link href={"/our-team"}>READ MORE</Link>
             </button>
           </motion.div>
-          {/* <div className="flex flex-col md:flex-row justify-center mt-14 md:-translate-x-10 gap-8">
-              <motion.div
-                variants={fadeLeft}
-                initial="initial"
-                whileInView="animate"
-                viewport={{ once: true }}
-                className="relative w-64 h-64 md:w-96 md:h-[450px] self-center"
-              >
-                <Image
-                  src={"/profile.png"}
-                  fill
-                  objectFit="cover"
-                  alt="profile A"
-                />
-                <div className="absolute text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                  <h1 className="text-xl font-semibold">Peter Verhezen</h1>
-                  <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                    Dr Peter Verhezen is a Professor of strategy, sustainability
-                    and corporate governance at the University of Antwerp and
-                    the Antwerp Management School (Belgium).
-                  </p>
-                </div>
-              </motion.div>
-              <div className="flex flex-col items-center gap-8">
-                <motion.div
-                  variants={fadeRight}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{ once: true }}
-                  className="relative w-64 h-64 md:w-96 md:h-[450px]"
-                >
-                  <Image
-                    src={"/profile-B.png"}
-                    fill
-                    objectFit="cover"
-                    alt="profile B"
-                  />
-                  <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Tanri Abeng</h1>
-                    <p className="text-sm overflow-y-hidden my-2">
-                      Dr. Tanri Abeng is the chairman of Biofarma, a
-                      pharmaceutical State Owned Enterprise in Indonesia.
-                    </p>
-                  </div>
-                </motion.div>
-                <motion.div
-                  variants={fadeIn}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{ once: true }}
-                  className="relative w-64 h-64 md:w-96 md:h-[450px] md:my-8"
-                >
-                  <Image
-                    src={"/profile-C.png"}
-                    fill
-                    objectFit="cover"
-                    alt="profile C"
-                  />
-                  <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Ian Buchanan</h1>
-                    <p className="text-sm overflow-y-hidden my-2">
-                      Ian Buchanan is the Emeritus Chairman of PWC Strategy.
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
-            </div> */}
-
-          {/* <div className="relative flex h-full px-44">
-            <div className="absolute w-1/2 mt-20 flex">
-              <motion.div
-                variants={fadeRight}
-                initial="initial"
-                whileInView="animate"
-                viewport={{ once: true }}
-                className="text-white px-8 py-12 bg-primary"
-              >
-                <div className="font-semibold text-2xl ">
-                  Founding Partners Team
-                </div>
-                <div className="text-sm font-normal  max-w-md my-5">
-                  Though we may not be real ‘management wizards’, we come close
-                  to it as our reputation to make things happening is well-known
-                  in the industry.
-                </div>
-                <Link
-                  href={"/our-team"}
-                  className="font-bold text-sm hover:underline underline-offset-4"
-                >
-                  READ MORE
-                </Link>
-              </motion.div>
-            </div>
-            <div className="flex justify-end w-full gap-12 mt-5">
-              <div className="flex items-center h-full">
-                <motion.div
-                  variants={fadeLeft}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{ once: true }}
-                  className="relative w-96 h-[450px]"
-                >
-                  <Image
-                    src={"/profile.png"}
-                    fill
-                    objectFit="cover"
-                    alt="profile A"
-                  />
-                  <div className="absolute text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Peter Verhezen</h1>
-                    <p className="text-sm overflow-y-hidden my-2">
-                      Dr Peter Verhezen is a Professor of strategy,
-                      sustainability and corporate governance at the University
-                      of Antwerp and the Antwerp Management School (Belgium).
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
-              <div className="flex flex-col">
-                <motion.div
-                  variants={fadeRight}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{ once: true }}
-                  className="relative w-96 h-[450px]"
-                >
-                  <Image
-                    src={"/profile-B.png"}
-                    fill
-                    objectFit="cover"
-                    alt="profile B"
-                  />
-                  <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Tanri Abeng</h1>
-                    <p className="text-sm overflow-y-hidden my-2">
-                      Dr. Tanri Abeng is the chairman of Biofarma, a
-                      pharmaceutical State Owned Enterprise in Indonesia.
-                    </p>
-                  </div>
-                </motion.div>
-                <motion.div
-                  variants={fadeIn}
-                  initial="initial"
-                  whileInView="animate"
-                  viewport={{ once: true }}
-                  className="relative w-96 h-[450px] my-8"
-                >
-                  <Image
-                    src={"/profile-C.png"}
-                    fill
-                    objectFit="cover"
-                    alt="profile C"
-                  />
-                  <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Ian Buchanan</h1>
-                    <p className="text-sm overflow-y-hidden my-2">
-                      Ian Buchanan is the Emeritus Chairman of PWC Strategy.
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
-            </div>
-          </div> */}
           <div className="translate-y-20">
             <motion.div
               variants={fadeRight}
@@ -405,8 +234,7 @@ const page = () => {
               viewport={{ once: true }}
               className="bg-third md:max-w-xl text-white font-semibold text-lg md:text-2xl px-7 py-5 md:py-12 mx-5 md:ml-64"
             >
-              Three main areas in which we partner with you to improve your
-              firm’s overall performance:
+              Three main areas in which we partner with you and provide thought leadership to improve your organization’s overall performance and impact.
             </motion.div>
           </div>
         </div>
@@ -443,7 +271,7 @@ const page = () => {
             </div>
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-lg md:text-2xl">
-                Strategy & Integrated Risk Management
+              Integrated Risk Management & Responsible Artificial Intelligence
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5 ">
                 Once the proper foundations of good corporate governance are in
@@ -453,7 +281,7 @@ const page = () => {
             </div>
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-lg md:text-2xl">
-                Sustainability and ESG-Investments
+              Sustainability impact and ESG-Investments
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5">
                 Successful organizations need to demonstrate a willingness to
@@ -469,58 +297,41 @@ const page = () => {
         </div>
       </div>
       {/* Article */}
-      <div className="flex">
+      <div className="flex h-[80vh] relative justify-center items-center">
         <motion.div
           variants={fadeIn}
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="w-full h-60 m-10 md:w-[1700px] md:h-[500px] relative md:my-20 md:ml-36"
+          className=" w-[50%] h-3/4 -translate-x-[30%]"
         >
           <Image
             src={"/article-A.jpg"}
             fill
             objectFit="cover"
             alt="article A"
+          
           />
-          {/* <div className="absolute h-full w-full flex justify-center items-center">
-            <Image
-              src={"white-line.svg"}
-              width={400}
-              height={0}
-              alt="white line"
-            />
-          </div> */}
         </motion.div>
-        <div className="h-fit self-center absolute md:relative md:-translate-x-32 overflow-hidden">
-          <motion.div
+        <motion.div
             variants={fadeRight}
             initial="initial"
             whileInView="animate"
-            className="bg-third px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white max-w-6xl "
+            className="bg-third px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white absolute max-w-[50%] right-32"
           >
             <div className="font-semibold text-lg md:text-2xl">
-              Probably, your company may also need a real digital strategy and
-              digital operating system to face fierce competition. We could
-              strategically think with you to materialize such an investment.
+            Probably, your organization may also need to reflect on an adapted digital AI strategy and a sustainability strategy to face fierce competition and to stay relevant in the industry. We could partner with you to think and conceptualize and subsequently materialize such investments or strategic adaptation.
             </div>
-            <p className="font-normal text-xs md:text-sm max-w-[270px] py-2">
+            <p className="font-normal text-xs md:text-base max-w-[270px] py-2">
               For more information please feel free to contact us.
             </p>
-            {/* <Link
-              href={"/contact-us"}
-              className="font-bold text-base md:text-sm hover:underline underline-offset-4"
-            >
-              GET IN TOUCH
-            </Link> */}
           </motion.div>
-          <div className="-translate-x-full">
-            <motion.div
+          <motion.div
               variants={fadeRight}
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
-              className="hidden md:flex justify-center mt-14"
+              className="hidden md:flex absolute bottom-32"
             >
               <Image
                 src={"/white-line.svg"}
@@ -529,12 +340,7 @@ const page = () => {
                 alt="white line"
               />
             </motion.div>
-          </div>
-        </div>
-
-        {/* <div className="absolute h-full w-full flex justify-center ">
-          <Image src={"/white-line.svg"} width={400} height={0} />
-        </div> */}
+      
       </div>
       {/* Article 2 */}
       <div className="h-fit bg-article2 bg-cover bg-fixed">

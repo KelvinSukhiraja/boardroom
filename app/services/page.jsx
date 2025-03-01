@@ -343,30 +343,11 @@ const Services = () => {
           >
             <div className="md:p-20 p-10">
               <h className="text-lg md:text-2xl text-third leading-tight">
-                Strategy & Integrated <br />
-                Risk Management
+              Integrated Risk Management &amp; <br/>Responsible Artificial Intelligence
               </h>
               <p className="text-sm text-black my-4">
-                Once the proper foundations of good corporate governance are in
-                place, proper vision and strategy can be thought through that
-                involves Integrating all risk perspectives for the company.
-                Boards with a good strategy should enable and empower directors
-                and managers to implement those approved strategies. In a fierce
-                global competitive environment, boards and management have a
-                fiduciary duty to prepare a futureproof organization that
-                provide a decent risk-adjusted return on the investment, and
-                creates products, services and experiences for its customers,
-                and empower its employees to thrive in a meaningful
-                organization. <br /> <br />
-                Strategy and its related risks is about envisioning a meaningful
-                future where customers pay for the service, product or
-                experience offered by the firm. Hence why different time
-                horizons need to be established, where finetuning may help
-                current assets to be optimized and fully exploited, while also
-                explore new insights that will lead to innovative products or
-                services through entrepreneurial trial and error processes.
-                Likely this includes the digitization of some of the firm’s core
-                processes.
+              Once the proper foundations of good corporate governance are in place, proper vision and strategy can be thought through that involves integrating all risk perspectives for and within the company. In a fierce global competitive environment, boards and management have a fiduciary duty to prepare a future-proof organization that provide a decent risk-adjusted return on the investment for its owners, and creates products, services and experiences for its customers, empower its employees to thrive in a meaningful organization, and take care of its suppliers to secure timely and high quality input. <br /> <br />
+              Such creation of value requires not just proper stakeholder engagement but above all new innovative insights – such as artificial intelligence tools – that allows your firm to grow effectively and efficiently in a responsible and accountable manner. No technology should be able to harm its users or be misused by its owners or creators; hence why responsible artificial intelligence technology should be at the forefront of any integrated risk management approach.
               </p>
             </div>
           </motion.div>

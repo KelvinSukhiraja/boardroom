@@ -66,24 +66,19 @@ const ContactUs = () => {
             </motion.div>
             <div className="my-5">
               <h1 className="text-2xl font-semibold">Get in Touch!</h1>
-              <p className="text-xs font-normal">Do not hesitate to ask us:</p>
+              <p className="text-xs font-normal">Do not hesitate to make enquiries</p>
             </div>
             <div className="my-5">
-              <h1 className="font-bold text-xs my-2">OUR OFFICE</h1>
+              <h1 className="font-bold text-xs my-2">OUR OFFICES</h1>
               <p className="text-xs font-normal">
-                The Boardroom Partnership <br />
-                Simpruk Golf XII Kav 3A, <br />
-                Jakarta Selatan, 12310 <br />
-                Indonesia <br />
-                <br />
-                With Rep Offices in Singapore and Antwerp
+              Antwerp – Bali – Jakarta – Melbourne – Singapore
               </p>
             </div>
             <div className="text-sm font-normal my-5">
               info@theboardroompartnership.com
             </div>
 
-            <div className="">
+            {/* <div className="">
               <h1 className="font-bold text-xs my-2">PERSONAL CONTACT</h1>
               <h1 className="font-bold text-sm ">Dr. Tanri Abeng, MBA</h1>
               <p className="text-xs font-normal">
@@ -114,15 +109,15 @@ const ContactUs = () => {
                   <FaInstagram size={20} className="fill-transparent" />
                 </div>
               </ul>
-            </div>
+            </div> */}
             <div className="">
               <h1 className="font-bold text-xs my-2">PERSONAL CONTACT</h1>
               <h1 className="font-bold text-sm ">
-                Dr. Peter Verhezen, MA, MBA
+                Dr. Peter Verhezen
               </h1>
               <p className="text-xs font-normal">
-                Co-Founder and Senior Partner <br />
-                The Boardroom Partnership
+                Co-Founder and Partner <br />
+                The Boardroom Partnership Think Tank
               </p>
               <ul className="flex max-w-sm justify-between my-4 pr-10">
                 <Link
