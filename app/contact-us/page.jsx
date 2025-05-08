@@ -66,17 +66,23 @@ const ContactUs = () => {
             </motion.div>
             <div className="my-5">
               <h1 className="text-2xl font-semibold">Get in Touch!</h1>
-              <p className="text-xs font-normal">Do not hesitate to make enquiries</p>
+              <p className="text-xs font-normal">
+                Do not hesitate to make enquiries
+              </p>
             </div>
             <div className="my-5">
               <h1 className="font-bold text-xs my-2">OUR OFFICES</h1>
               <p className="text-xs font-normal">
-              Antwerp – Bali – Jakarta – Melbourne – Singapore
+                Antwerp – Bali – Jakarta – Melbourne – Singapore
               </p>
             </div>
-            <div className="text-sm font-normal my-5">
+            <Link
+              href={"mailto:info@theboardroompartnership.com"}
+              className="text-sm font-normal my-5 underline"
+              target="_blank"
+            >
               info@theboardroompartnership.com
-            </div>
+            </Link>
 
             {/* <div className="">
               <h1 className="font-bold text-xs my-2">PERSONAL CONTACT</h1>
@@ -112,21 +118,26 @@ const ContactUs = () => {
             </div> */}
             <div className="">
               <h1 className="font-bold text-xs my-2">PERSONAL CONTACT</h1>
-              <h1 className="font-bold text-sm ">
-                Dr. Peter Verhezen
-              </h1>
+              <h1 className="font-bold text-sm ">Peter Verhezen</h1>
+              <Link
+                href={"mailto:p.verhezen@gmail.com"}
+                className="text-xs font-normal underline"
+                target="_blank"
+              >
+                p.verhezen@gmail.com
+              </Link>
               <p className="text-xs font-normal">
                 Co-Founder and Partner <br />
                 The Boardroom Partnership Think Tank
               </p>
               <ul className="flex max-w-sm justify-between my-4 pr-10">
-                <Link
+                {/* <Link
                   href={"https://www.facebook.com/peter.verhezen.9"}
                   className="border-2 rounded-full p-2 brightness-75 hover:brightness-100"
                   target="_blank"
                 >
                   <FaFacebookF size={20} />
-                </Link>
+                </Link> */}
                 <Link
                   href={
                     "https://www.linkedin.com/in/peter-verhezen-a6b7a03/?originalSubdomain=be"

@@ -134,13 +134,27 @@ const OurTeam = () => {
             className="bg-primary text-white p-6 md:px-12 md:py-8 m-5 self-center md:mr-72"
           >
             <h1 className="text-lg md:text-2xl font-semibold leading-tight">
-            Founding Partners’ <br/>
-Team of the Think Tank
+              Founding Partners’ <br />
+              Team of the Think Tank
             </h1>
             <p className="text-xs my-4 max-w-md">
-            This Think Tank “the Boardroom Partnership” and our international team functions as a real bridge between Thought Leadership and actual practitioners in the field. Our reputation - as advisor-author, academic, board member or entrepreneur - has a proven record of making things happening in the industry. Coming from different backgrounds, the founding partners of this Think Tank have all the necessary academic qualifications and strategic business experience to position us well to really form a strong partnership with your board and your top management. <br />
+              The Boardroom Partnership Think Tank and our international team
+              functions as a real bridge between Thought Leadership and actual
+              practitioners in the field. Our reputation - as advisor-author,
+              academic, board member or entrepreneur - has a proven record of
+              making things happening in the industry. Coming from different
+              backgrounds, the founding partners of this Think Tank have all the
+              necessary academic qualifications and strategic business
+              experience to position us well to really form a strong partnership
+              with your board and your top management.
               <br />
-              Our thought leadership capabilities and expertise is well established – allowing to enhance your chances to take on future-proof challenges, and to remain relevant and competitive in your industry. We also collaborate with associates around the globe ensuring that our partnership with you will result in practical solutions and real performance.
+              <br />
+              Our thought leadership capabilities and expertise is well
+              established – allowing to enhance your chances to take on
+              future-proof challenges, and to remain relevant and competitive in
+              your industry. We also collaborate with associates around the
+              globe ensuring that our partnership with you will result in
+              practical solutions and real performance.
             </p>
           </motion.div>
           <motion.div
@@ -247,9 +261,13 @@ Team of the Think Tank
                 />
                 <Link href="our-team/luc">
                   <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
-                    <h1 className="text-xl font-semibold">Luc Van Liedekerke </h1>
+                    <h1 className="text-xl font-semibold">
+                      Luc Van Liedekerke{" "}
+                    </h1>
                     <p className="text-sm overflow-y-hidden my-2">
-                    Dr. Luc Van Liedekerke is professor ethics and sustainability at the University of Antwerp and KULeuven (both in Belgium).
+                      Dr. Luc Van Liedekerke is professor ethics and
+                      sustainability at the University of Antwerp and KULeuven
+                      (both in Belgium).
                     </p>
                   </div>
                 </Link>
@@ -273,7 +291,9 @@ Team of the Think Tank
                 >
                   <h1 className="text-xl font-semibold">Danny Samson</h1>
                   <p className="text-sm overflow-y-hidden my-2">
-                  Dr. Danny Samson is a highly esteemed Professor of Management at the University of Melbourne, where he has dedicated over three decades to academia.
+                    Dr. Danny Samson is a highly esteemed Professor of
+                    Management at the University of Melbourne, where he has
+                    dedicated over three decades to academia.
                   </p>
                 </Link>
               </motion.div>
@@ -338,16 +358,30 @@ Team of the Think Tank
               alt="partnerB"
             />
             <h1 className="text-white relative self-end p-5 text-lg md:text-2xl font-semibold">
-            Natalia Soebagjo
+              Natalia Soebagjo
             </h1>
           </Link>
         </motion.div>
         <div className="my-20 flex flex-col gap-10">
-        <h1 className="text-3xl font-semibold max-w-xl">The Boardroom Partnership Think Tank
-collaborates with:</h1>
-<div className=" flex gap-10">
-<Link target="_blank" className="font-medium text-xl hover:underline" href="https://esgperform.global/about/">ESG Perform</Link>
-<Link target="_blank" className="font-medium text-xl hover:underline" href="https://selionglobal.com/leadership-advisory">SELION GLOBAL</Link></div>
+          <h1 className="text-3xl font-semibold max-w-xl">
+            The Boardroom Partnership Think Tank collaborates with:
+          </h1>
+          <div className=" flex gap-10">
+            <Link
+              target="_blank"
+              className="font-medium text-xl hover:underline"
+              href="https://esgperform.global/about/"
+            >
+              ESG Perform
+            </Link>
+            <Link
+              target="_blank"
+              className="font-medium text-xl hover:underline"
+              href="https://selionglobal.com/leadership-advisory"
+            >
+              SELION GLOBAL
+            </Link>
+          </div>
         </div>
       </div>
     </div>
