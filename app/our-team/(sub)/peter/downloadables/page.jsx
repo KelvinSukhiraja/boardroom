@@ -114,9 +114,27 @@ const Downloadable = () => {
               className="mb-20"
             >
               <tbody className="table md:w-3/4 ">
-              <tr>
+                <tr>
                   <td className="border-b py-5 pr-5 text-xs">
-                  Verhezen 2024 A Corp Governance Perspective on Org Integrity
+                    Verhezen, P.; Mandt, T.; Albers, A. & W. Dewulf, 2025,
+                    “Corporate governance of state-owned airlines in Southeast
+                    Asia: a gloomy case of Garuda Indonesia”, Chapter 8 in
+                    Handbook Aviation and Governance, London, Edwar Elgar
+                    Publishing
+                  </td>
+                  <td className="border-b text-xs ">
+                    <Link
+                      href="/papers/Full-chapter-from-book---9781803926988-chapter8.pdf"
+                      target="_blank"
+                      className=" hover:underline italic"
+                    >
+                      download
+                    </Link>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border-b py-5 pr-5 text-xs">
+                    Verhezen 2024 A Corp Governance Perspective on Org Integrity
                   </td>
                   <td className="border-b text-xs ">
                     <Link
