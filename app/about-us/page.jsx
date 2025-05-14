@@ -57,7 +57,7 @@ const AboutUs = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="invisible md:visible flex justify-center pl-32 mt-10"
+          className="invisible md:visible flex justify-center pl-32"
         >
           <img src={"/line.svg"} width={400} height={0} alt="line" />
         </motion.div>

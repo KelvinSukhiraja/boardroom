@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
@@ -93,7 +92,7 @@ const page = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="invisible md:visible flex justify-center pl-32 mt-10"
+          className="invisible md:visible flex justify-center pl-32 "
         >
           <img src={"/white-line.svg"} width={400} height={0} alt=" line" />
         </motion.div>
@@ -102,14 +101,21 @@ const page = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className="bg-primary text-white px-12 py-6 md:py-10 m-5 md:self-end"
+          className="bg-primary text-white px-12 py-6 md:py-10 m-5 md:self-end "
         >
           <h1 className="text-lg md:text-2xl font-semibold">
             THE BOARDROOM <br />
             PARTNERSHIP THINK TANK
           </h1>
           <p className="text-xs md:text-sm my-4 max-w-md">
-          We at the Boardroom Partnership would partner and closely collaborate with you and your organization to reflect and deliver on improved governance and risk practices. We also would function as a sounding board to strengthen your sustainability impact and responsible AI strategies,  aiming to ultimately improve your service and product experience and perception that will most likely result in better financial and non-financial performance.          </p>
+            We at the Boardroom Partnership would partner and closely
+            collaborate with you and your organization to reflect and deliver on
+            improved governance and risk practices. We also would function as a
+            sounding board to strengthen your sustainability impact and
+            responsible AI strategies, aiming to ultimately improve your service
+            and product experience and perception that will most likely result
+            in better financial and non-financial performance.{" "}
+          </p>
           <Link href="/about-us">
             <p className="font-bold text-base md:text-sm hover:underline underline-offset-4">
               READ MORE
@@ -194,10 +200,11 @@ const page = () => {
             <div className="grid grid-cols-3 gap-8 justify-between w-full text-white my-10 ">
               <div className=" max-w-sm flex flex-col">
                 <h1 className="text-lg md:text-2xl font-medium text-third">
-                Luc Van Liedekerke
+                  Luc Van Liedekerke
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                Dr. Luc Van Liedekerke is professor ethics and sustainability at the University of Antwerp and KULeuven (both in Belgium).
+                  Dr. Luc Van Liedekerke is professor ethics and sustainability
+                  at the University of Antwerp and KULeuven (both in Belgium).
                 </p>
               </div>
               <div className=" max-w-sm flex flex-col">
@@ -214,10 +221,12 @@ const page = () => {
 
               <div className=" max-w-sm flex flex-col">
                 <h1 className="text-lg md:text-2xl font-medium text-third">
-                Danny Samson
+                  Danny Samson
                 </h1>
                 <p className="text-xs md:text-sm overflow-y-hidden my-2">
-                Dr. Danny Samson is a highly esteemed Professor of Management at the University of Melbourne, where he has dedicated over three decades to academia.
+                  Dr. Danny Samson is a highly esteemed Professor of Management
+                  at the University of Melbourne, where he has dedicated over
+                  three decades to academia.
                 </p>
               </div>
             </div>
@@ -233,7 +242,9 @@ const page = () => {
               viewport={{ once: true }}
               className="bg-third md:max-w-xl text-white font-semibold text-lg md:text-2xl px-7 py-5 md:py-12 mx-5 md:ml-64"
             >
-              Three main areas in which we partner with you and provide thought leadership to improve your organization’s overall performance and impact.
+              Three main areas in which we partner with you and provide thought
+              leadership to improve your organization’s overall performance and
+              impact.
             </motion.div>
           </div>
         </div>
@@ -270,7 +281,7 @@ const page = () => {
             </div>
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-lg md:text-2xl">
-              Integrated Risk Management & Responsible Artificial Intelligence
+                Integrated Risk Management & Responsible Artificial Intelligence
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5 ">
                 Once the proper foundations of good corporate governance are in
@@ -280,7 +291,7 @@ const page = () => {
             </div>
             <div className=" text-white p-5 max-w-sm">
               <div className="text-third font-medium text-lg md:text-2xl">
-              Sustainability impact and ESG-Investments
+                Sustainability impact and ESG-Investments
               </div>
               {/* <p className="font-normal text-xs md:text-sm mt-5">
                 Successful organizations need to demonstrate a willingness to
@@ -302,43 +313,41 @@ const page = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className=" w-[50%] h-3/4 overflow-hidden -translate-x-[30%]"
+          className=" w-[50%] h-3/4 -translate-x-[30%]"
         >
-          <img
-            src={"/article-A.jpg"}
-            fill
-            objectFit="cover"
-            alt="article A"
-          />
+          <img src={"/article-A.jpg"} fill objectFit="cover" alt="article A" />
         </motion.div>
         <motion.div
-            variants={fadeRight}
-            initial="initial"
-            whileInView="animate"
-            className="bg-third px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white absolute max-w-[50%] right-32"
-          >
-            <div className="font-semibold text-lg md:text-2xl">
-            Probably, your organization may also need to reflect on an adapted digital AI strategy and a sustainability strategy to face fierce competition and to stay relevant in the industry. We could partner with you to think and conceptualize and subsequently materialize such investments or strategic adaptation.
-            </div>
-            <p className="font-normal text-xs md:text-base max-w-[270px] py-2">
-              For more information please feel free to contact us.
-            </p>
-          </motion.div>
-          <motion.div
-              variants={fadeRight}
-              initial="initial"
-              whileInView="animate"
-              viewport={{ once: true }}
-              className="hidden md:flex absolute bottom-32"
-            >
-              <img
-                src={"/white-line.svg"}
-                width={400}
-                height={0}
-                alt="white line"
-              />
-            </motion.div>
-      
+          variants={fadeRight}
+          initial="initial"
+          whileInView="animate"
+          className="bg-third px-6 py-3 md:pl-10 md:pr-5 md:py-10 text-white absolute max-w-[50%] right-32"
+        >
+          <div className="font-semibold text-lg md:text-2xl">
+            Probably, your organization may also need to reflect on an adapted
+            digital AI strategy and a sustainability strategy to face fierce
+            competition and to stay relevant in the industry. We could partner
+            with you to think and conceptualize and subsequently materialize
+            such investments or strategic adaptation.
+          </div>
+          <p className="font-normal text-xs md:text-base max-w-[270px] py-2">
+            For more information please feel free to contact us.
+          </p>
+        </motion.div>
+        <motion.div
+          variants={fadeRight}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          className="hidden md:flex absolute bottom-32"
+        >
+          <img
+            src={"/white-line.svg"}
+            width={400}
+            height={0}
+            alt="white line"
+          />
+        </motion.div>
       </div>
       {/* Article 2 */}
       <div className="h-fit bg-article2 bg-cover bg-fixed">
