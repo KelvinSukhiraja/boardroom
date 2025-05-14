@@ -59,7 +59,7 @@ const Downloadable = () => {
             className="mb-10"
           >
             <Link href={"/"}>
-              <Image
+              <img
                 src={"/whitelogo.svg"}
                 alt="logo"
                 width={90}
@@ -89,7 +89,7 @@ const Downloadable = () => {
               whileInView="animate"
               viewport={{ once: true }}
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={300}
                 height={0}

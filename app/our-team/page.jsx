@@ -54,7 +54,7 @@ const OurTeam = () => {
           className="h-screen flex flex-col justify-around px-28 pt-36"
         >
           <div className="flex justify-center pl-32">
-            <Image
+            <img
               src={"/white-line.svg"}
               width={400}
               height={0}
@@ -119,7 +119,7 @@ const OurTeam = () => {
             viewport={{ once: true }}
             className="invisible md:visible mt-10 pr-32"
           >
-            <Image
+            <img
               src={"/white-line.svg"}
               width={400}
               height={0}
@@ -184,7 +184,7 @@ Team of the Think Tank
             viewport={{ once: true }}
             className="text-lg md:text-2xl font-semibold my-8 md:w-1/2 flex md:justify-center text-white ml-8"
           >
-            The Founding Partners
+            Partners
           </motion.div>
           <div className="flex flex-col md:flex-row justify-center my-10">
             <div className="flex flex-col mx-8">
@@ -194,7 +194,7 @@ Team of the Think Tank
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <Image
+                <img
                   src={"/white-line.svg"}
                   width={300}
                   height={0}
@@ -211,13 +211,8 @@ Team of the Think Tank
                   viewport={{ once: true }}
                   className="relative w-64 h-64 md:w-96 md:h-[450px]"
                 >
-                  <Image
-                    src={"/profile.png"}
-                    fill
-                    objectFit="cover"
-                    alt="profile A"
-                  />
-                  <Link href="our-team/peter">
+                 
+                  <Link href="/our-team/peter">
                     <div className="absolute text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
                       <h1 className="text-xl font-semibold">Peter Verhezen</h1>
                       <p className="text-sm overflow-y-hidden my-2">
@@ -227,7 +222,13 @@ Team of the Think Tank
                         (Belgium).
                       </p>
                     </div>
-                  </Link>
+                  </Link> <img
+                    src={"/profile.png"}
+                    fill
+                    objectFit="cover"
+                    alt="profile A"
+                    className="w-full h-full object-cover"
+                  />
                 </motion.div>
               </div>
             </div>
@@ -239,20 +240,21 @@ Team of the Think Tank
                 viewport={{ once: true }}
                 className="relative w-64 h-64 md:w-96 md:h-[450px]"
               >
-                <Image
-                  src={"/profile-B-new.png"}
-                  fill
-                  objectFit="cover"
-                  alt="profile B"
-                />
-                <Link href="our-team/luc">
+                
+                <Link href="/our-team/luc">
                   <div className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4">
                     <h1 className="text-xl font-semibold">Luc Van Liedekerke </h1>
                     <p className="text-sm overflow-y-hidden my-2">
                     Dr. Luc Van Liedekerke is professor ethics and sustainability at the University of Antwerp and KULeuven (both in Belgium).
                     </p>
                   </div>
-                </Link>
+                </Link><img
+                  src={"/profile-B-new.png"}
+                  fill
+                  objectFit="cover"
+                  alt="profile B"
+                  className="object-cover w-full h-full"
+                />
               </motion.div>
               <motion.div
                 variants={fadeIn}
@@ -261,21 +263,22 @@ Team of the Think Tank
                 viewport={{ once: true }}
                 className="relative w-64 h-64 md:w-96 md:h-[450px] my-8 mb-28"
               >
-                <Image
-                  src={"/profile-C.jpeg"}
-                  fill
-                  objectFit="cover"
-                  alt="profile C"
-                />
+                
                 <Link
-                  href={"our-team/danny"}
+                  href={"/our-team/danny"}
                   className="absolute cursor-pointer text-transparent hover:text-white hover:backdrop-brightness-50 w-full h-full flex flex-col justify-end px-4"
                 >
                   <h1 className="text-xl font-semibold">Danny Samson</h1>
                   <p className="text-sm overflow-y-hidden my-2">
                   Dr. Danny Samson is a highly esteemed Professor of Management at the University of Melbourne, where he has dedicated over three decades to academia.
                   </p>
-                </Link>
+                </Link><img
+                  src={"/profile-C.jpeg"}
+                  fill
+                  objectFit="cover"
+                  alt="profile C"
+                  className="w-full h-full object-cover"
+                />
               </motion.div>
             </div>
           </div>
@@ -289,7 +292,6 @@ Team of the Think Tank
           viewport={{ once: true }}
           className="text-black text-lg md:text-2xl font-semibold my-8 md:mx-16 ml-8 leading-tight"
         >
-          Our Associates & <br />
           Associated Partners
         </motion.div>
         <motion.div
@@ -298,7 +300,7 @@ Team of the Think Tank
           whileInView="animate"
           viewport={{ once: true }}
         >
-          <Image
+          <img
             src={"/line.svg"}
             width={300}
             height={0}
@@ -314,30 +316,32 @@ Team of the Think Tank
           className="flex flex-col md:flex-row items-center gap-4 overflow-x-auto"
         >
           <Link
-            href="our-team/pri"
+            href="/our-team/pri"
             className="flex relative w-64 h-64 md:w-96 md:h-96"
           >
-            <Image
+            <img
               src={"/partnerA.png"}
               fill
               objectFit="cover"
               alt="partnerA"
+              className="object-cover w-full h-full"
             />
-            <h1 className="text-white relative self-end p-5 text-lg md:text-2xl font-semibold">
+            <h1 className="text-white absolute self-end p-5 text-lg md:text-2xl font-semibold">
               Pri Notowidigdo
             </h1>
           </Link>
           <Link
-            href="our-team/natalia"
+            href="/our-team/natalia"
             className="flex relative w-64 h-64 md:w-96 md:h-96"
           >
-            <Image
+            <img
               src={"/partnerB.jpg"}
               fill
               objectFit="cover"
               alt="partnerB"
+              className="object-cover w-full h-full"
             />
-            <h1 className="text-white relative self-end p-5 text-lg md:text-2xl font-semibold">
+            <h1 className="text-white absolute self-end p-5 text-lg md:text-2xl font-semibold">
             Natalia Soebagjo
             </h1>
           </Link>

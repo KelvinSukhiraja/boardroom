@@ -2,7 +2,7 @@ import { Footer, Navbar } from "../components";
 import "./globals.css";
 
 export const metadata = {
-  title: "The Boardroom Partnership",
+  title: "The Boardroom Partnership Think Tank",
   description: "~~~",
 };
 

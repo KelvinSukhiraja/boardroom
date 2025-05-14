@@ -8,7 +8,7 @@ import { BsGlobe2 } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { FiMail } from "react-icons/fi";
 
-const tanri = () => {
+const danny = () => {
   const fadeLeft = {
     initial: {
       opacity: 0,
@@ -62,7 +62,7 @@ const tanri = () => {
             className="p-3"
           >
             <Link href={"/"}>
-              <Image
+              <img
                 src={"/whitelogo.svg"}
                 alt="logo"
                 width={90}
@@ -81,7 +81,7 @@ const tanri = () => {
             <Link href={"/our-team"}>
               <AiOutlineArrowLeft />
             </Link>
-            <p className="text-xs font-bold">ABOUT US &gt; Danny Samson</p>
+            <p className="text-xs font-bold">OUR TEAM &gt; Danny Samson</p>
           </motion.div>
           <div className="flex flex-col md:flex-row">
             <motion.div
@@ -91,11 +91,11 @@ const tanri = () => {
               viewport={{ once: true }}
               className="relative w-72 h-96  md:w-96 md:h-[450px] self-center m-3 "
             >
-              <Image
+              <img
                 src={"/profileDanny.jpg"}
                 fill
                 alt="profile"
-                className="object-center object-cover"
+                className="object-center object-cover w-full h-full"
               />
             </motion.div>
             <div className="text-white md:ml-28 flex flex-col justify-center">
@@ -105,7 +105,7 @@ const tanri = () => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <Image
+                <img
                   src={"/white-line.svg"}
                   width={300}
                   height={0}
@@ -186,4 +186,4 @@ strategy.
   );
 };
 
-export default tanri;
+export default danny;

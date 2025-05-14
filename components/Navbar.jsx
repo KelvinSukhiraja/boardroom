@@ -9,17 +9,17 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const navbar = () => {
   const segment = usePathname();
-  const change = "/about-us" === segment;
+  const change = "/about-us/" === segment;
   const ourteamsub =
-    "/our-team/peter" === segment ||
-    "/our-team/peter/blog" === segment ||
-    "/our-team/peter/downloadables" === segment ||
-    "/our-team/tanri" === segment ||
-    "/our-team/ian" === segment ||
-    "/our-team/luc" === segment ||
-    "/our-team/pri" === segment||
-    "/our-team/danny" === segment||
-    "/our-team/natalia" === segment
+    "/our-team/peter/" === segment ||
+    "/our-team/peter/blog/" === segment ||
+    "/our-team/peter/downloadables/" === segment ||
+    "/our-team/tanri/" === segment ||
+    "/our-team/ian/" === segment ||
+    "/our-team/luc/" === segment ||
+    "/our-team/pri/" === segment||
+    "/our-team/danny/" === segment||
+    "/our-team/natalia/" === segment
 
   const fadeTop = {
     initial: {
@@ -78,7 +78,7 @@ const navbar = () => {
         <div className="flex flex-col md:flex-row md:px-28 md:my-6 w-full absolute z-10 ">
           <div className="flex w-full justify-between">
             <Link href={"/"} onClick={() => setIsOpen(false)}>
-              <Image
+              <img
                 src={change ? "/Logo.png" : "/whitelogo.svg"}
                 alt="logo"
                 width={90}

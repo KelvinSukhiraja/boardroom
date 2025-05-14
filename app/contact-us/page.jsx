@@ -57,7 +57,7 @@ const ContactUs = () => {
               viewport={{ once: true }}
               className="hidden md:flex justify-end py-8"
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={350}
                 height={0}

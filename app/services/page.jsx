@@ -79,7 +79,7 @@ const Services = () => {
               viewport={{ once: true }}
               className="invisible md:visible flex justify-center pl-32 mt-10"
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={400}
                 height={0}
@@ -168,7 +168,7 @@ const Services = () => {
                   />
                 </button>
                 <div className="w-full h-96 md:h-full  relative ">
-                  <Image src={"/graph.svg"} fill />
+                  <img src={"/graph.svg"} fill  className="object-cover h-full w-full"/>
                 </div>
               </motion.div>
             </div>
@@ -185,7 +185,7 @@ const Services = () => {
               viewport={{ once: true }}
               className="hidden md:flex"
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={400}
                 height={0}
@@ -243,7 +243,7 @@ const Services = () => {
           viewport={{ once: true }}
           className="w-4/5 h-4/5 relative my-20 "
         >
-          <Image src={"/graph.svg"} fill />
+          <img src={"/graph.svg"} fill />
         </motion.div>
         <div className="translate-y-12 z-30">
           <motion.div
@@ -279,7 +279,7 @@ const Services = () => {
               whileInView="animate"
               viewport={{ once: true }}
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={400}
                 height={0}
@@ -317,21 +317,23 @@ const Services = () => {
             </motion.div>
           </div>
           <div className="md:w-1/2 w-full h-96 md:h-auto relative -z-20 bg-slate-600">
-            <Image
+            <img
               src={"/article-B.jpg"}
               fill
               objectFit="cover"
               alt="article B"
+               className="object-cover h-full w-full"
             />
           </div>
         </div>
         <div className="h-fit flex flex-col md:flex-row">
           <div className="md:w-1/2 w-full h-96 md:h-auto relative z-0 bg-slate-600">
-            <Image
+            <img
               src={"/article-c.jpg"}
               fill
               objectFit="cover"
               alt="article C"
+              className="object-cover h-full w-full"
             />
           </div>
           <motion.div
@@ -426,13 +428,13 @@ const Services = () => {
                   />
                 </button>
                 <div className="w-full h-96 md:h-full  relative ">
-                  <Image src={"/graph2.jpg"} fill />
+                  <img src={"/graph2.jpg"} fill  className="object-cover h-full w-full"/>
                 </div>
               </motion.div>
             </div>
           </div>
           <div className="md:w-1/2 w-full h-96 md:h-auto relative z-0 bg-slate-600">
-            <Image src={"/article-d.jpg"} fill objectFit="cover" />
+            <img src={"/article-d.jpg"} fill objectFit="cover" className="object-cover h-full w-full"/>
           </div>
         </div>
       </div>

@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       <Link href={""} className="self-end m-4 md:my-8">
-        <Image src={"/arrow.svg"} width={30} height={10} />
+        <img src={"/arrow.svg"} width={30} height={10} />
       </Link>
 
       <div className="flex flex-col items-center border-t-2 border-primary font-normal text-xs md:text-sm text-[#707070] p-5 md:py-8">

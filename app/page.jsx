@@ -86,7 +86,7 @@ const page = () => {
         id="1"
         className="bg-hero bg-fixed bg-cover bg-center h-screen flex flex-col justify-between md:px-28 md:pt-36"
       >
-        {/* <Image src={"/hero-bg.jpeg"} alt="bg" fill /> */}
+        {/* <img src={"/hero-bg.jpeg"} alt="bg" fill /> */}
 
         <motion.div
           variants={fadeLeft}
@@ -95,7 +95,7 @@ const page = () => {
           viewport={{ once: true }}
           className="invisible md:visible flex justify-center pl-32 mt-10"
         >
-          <Image src={"/white-line.svg"} width={400} height={0} alt=" line" />
+          <img src={"/white-line.svg"} width={400} height={0} alt=" line" />
         </motion.div>
         <motion.div
           variants={fadeRight}
@@ -161,7 +161,7 @@ const page = () => {
             viewport={{ once: true }}
             className="invisible md:visible flex ml-56 md:pt-32"
           >
-            <Image
+            <img
               src={"/white-line.svg"}
               width={400}
               height={0}
@@ -245,7 +245,7 @@ const page = () => {
             viewport={{ once: true }}
             className="invisible md:visible"
           >
-            <Image
+            <img
               src={"/white-line.svg"}
               width={400}
               height={0}
@@ -302,14 +302,13 @@ const page = () => {
           initial="initial"
           whileInView="animate"
           viewport={{ once: true }}
-          className=" w-[50%] h-3/4 -translate-x-[30%]"
+          className=" w-[50%] h-3/4 overflow-hidden -translate-x-[30%]"
         >
-          <Image
+          <img
             src={"/article-A.jpg"}
             fill
             objectFit="cover"
             alt="article A"
-          
           />
         </motion.div>
         <motion.div
@@ -332,7 +331,7 @@ const page = () => {
               viewport={{ once: true }}
               className="hidden md:flex absolute bottom-32"
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={400}
                 height={0}
@@ -343,7 +342,7 @@ const page = () => {
       </div>
       {/* Article 2 */}
       <div className="h-fit bg-article2 bg-cover bg-fixed">
-        {/* <Image
+        {/* <img
           src={"/article2-bg.jpg"}
           className="object-cover"
           fill
@@ -357,7 +356,7 @@ const page = () => {
             viewport={{ once: true }}
             className="w-full md:w-96 h-96 md:h-[500px] relative"
           >
-            <Image
+            <img
               src={"/product-a.jpeg"}
               fill
               objectFit="contain"
@@ -371,7 +370,7 @@ const page = () => {
               whileInView="animate"
               viewport={{ once: true }}
             >
-              <Image
+              <img
                 src={"/white-line.svg"}
                 width={400}
                 height={0}

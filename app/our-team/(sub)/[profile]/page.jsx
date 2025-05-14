@@ -98,7 +98,7 @@ const page = () => {
             className="p-3"
           >
             <Link href={"/"}>
-              <Image
+              <img
                 src={"/whitelogo.svg"}
                 alt="logo"
                 width={90}
@@ -127,7 +127,7 @@ const page = () => {
               viewport={{ once: true }}
               className="relative w-72 h-96  md:w-96 md:h-[450px] self-center m-3 "
             >
-              <Image
+              <img
                 src={profilePic}
                 fill
                 alt="profile"
@@ -141,7 +141,7 @@ const page = () => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <Image
+                <img
                   src={"/white-line.svg"}
                   width={300}
                   height={0}

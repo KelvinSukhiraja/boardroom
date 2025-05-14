@@ -63,7 +63,7 @@ const peter = () => {
             className="p-3"
           >
             <Link href={"/"}>
-              <Image
+              <img
                 src={"/whitelogo.svg"}
                 alt="logo"
                 width={90}
@@ -82,7 +82,7 @@ const peter = () => {
             <Link href={"/our-team"}>
               <AiOutlineArrowLeft />
             </Link>
-            <p className="text-xs font-bold">ABOUT US &gt; PETER VERHEZEN</p>
+            <p className="text-xs font-bold">OUR TEAM &gt; PETER VERHEZEN</p>
           </motion.div>
           <div className="flex flex-col md:flex-row">
             <motion.div
@@ -92,11 +92,11 @@ const peter = () => {
               viewport={{ once: true }}
               className="relative w-72 h-96  md:w-96 md:h-[450px] self-center m-3 "
             >
-              <Image
+              <img
                 src={"/profile2.png"}
                 fill
                 alt="profile"
-                className="object-center object-cover"
+                className="object-center object-cover h-full w-full"
               />
             </motion.div>
             <div className="text-white md:ml-28 flex flex-col justify-center">
@@ -106,7 +106,7 @@ const peter = () => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <Image
+                <img
                   src={"/white-line.svg"}
                   width={300}
                   height={0}
@@ -221,7 +221,7 @@ const peter = () => {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            <Image
+            <img
               src={"/white-line.svg"}
               width={300}
               height={0}
@@ -251,13 +251,13 @@ const peter = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/book1.jpeg"} fill objectFit="cover" alt="book1" />
+                <img src={"/book1.jpeg"} fill objectFit="cover" alt="book1" className="object-cover h-full w-full"/>
               </Link>
               <label className="text-white text-sm my-2">2009</label>
             </div>
             <div className=" flex flex-col items-center">
               <div className="relative w-64 h-[370px]">
-                <Image src={"/book2.jpg"} fill objectFit="cover" alt="book4" />
+                <img src={"/book2.jpg"} fill objectFit="cover" alt="book4" className="object-cover h-full w-full"/>
               </div>
               <label className="text-white text-sm my-2">2012</label>
             </div>
@@ -267,7 +267,7 @@ const peter = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/book3.jpeg"} fill objectFit="cover" alt="book2" />
+                <img src={"/book3.jpeg"} fill objectFit="cover" alt="book2" className="object-cover h-full w-full"/>
               </Link>
               <label className="text-white text-sm my-2">2015</label>
             </div>
@@ -279,7 +279,7 @@ const peter = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/book4.jpeg"} fill objectFit="cover" alt="book3" />
+                <img src={"/book4.jpeg"} fill objectFit="cover" alt="book3" className="object-cover h-full w-full"/>
               </Link>
               <label className="text-white text-sm my-2">2016</label>
             </div>
@@ -291,11 +291,12 @@ const peter = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image
+                <img
                   src={"/product-a.jpeg"}
                   fill
                   objectFit="cover"
                   alt="bookA"
+                  className="object-cover h-full w-full"
                 />
               </Link>
               <label className="text-white text-sm my-2">2022</label>
@@ -306,7 +307,7 @@ const peter = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/book5.jpg"} fill objectFit="cover" alt="book4" />
+                <img src={"/book5.jpg"} fill objectFit="cover" alt="book4" className="object-cover h-full w-full"/>
               </Link>
               <label className="text-white text-sm my-2">2023</label>
             </div>

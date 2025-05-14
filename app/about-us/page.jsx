@@ -59,7 +59,7 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="invisible md:visible flex justify-center pl-32 mt-10"
         >
-          <Image src={"/line.svg"} width={400} height={0} alt="line" />
+          <img src={"/line.svg"} width={400} height={0} alt="line" />
         </motion.div>
         <motion.div
           variants={fadeRight}
@@ -127,7 +127,7 @@ const AboutUs = () => {
               viewport={{ once: true }}
               className="invisible md:visible "
             >
-              <Image src={"/white-line.svg"} width={400} height={0} />
+              <img src={"/white-line.svg"} width={400} height={0} />
             </motion.div>
             <motion.div
               variants={fadeIn}
@@ -203,7 +203,7 @@ an era of digitalization through artificial intelligence and interdependent eco-
           viewport={{ once: true }}
           className="invisible md:visible "
         >
-          <Image
+          <img
             src={"/line.svg"}
             width={400}
             height={0}

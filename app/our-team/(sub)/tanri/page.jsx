@@ -62,7 +62,7 @@ const tanri = () => {
             className="p-3"
           >
             <Link href={"/"}>
-              <Image
+              <img
                 src={"/whitelogo.svg"}
                 alt="logo"
                 width={90}
@@ -91,7 +91,7 @@ const tanri = () => {
               viewport={{ once: true }}
               className="relative w-72 h-96  md:w-96 md:h-[450px] self-center m-3 "
             >
-              <Image
+              <img
                 src={"/profileTanri.jpg"}
                 fill
                 alt="profile"
@@ -105,7 +105,7 @@ const tanri = () => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <Image
+                <img
                   src={"/white-line.svg"}
                   width={300}
                   height={0}
@@ -196,7 +196,7 @@ const tanri = () => {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            <Image
+            <img
               src={"/white-line.svg"}
               width={300}
               height={0}
@@ -228,7 +228,7 @@ const tanri = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/tanriA.jpg"} fill objectFit="cover" alt="book1" />
+                <img src={"/tanriA.jpg"} fill objectFit="cover" alt="book1" />
               </Link>
               <label className="text-white text-sm my-2">2010</label>
             </div>
@@ -240,7 +240,7 @@ const tanri = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/tanriB.jpg"} fill objectFit="cover" alt="book2" />
+                <img src={"/tanriB.jpg"} fill objectFit="cover" alt="book2" />
               </Link>
               <label className="text-white text-sm my-2">2014</label>
             </div>
@@ -252,7 +252,7 @@ const tanri = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/tanriC.jpg"} fill objectFit="cover" alt="book3" />
+                <img src={"/tanriC.jpg"} fill objectFit="cover" alt="book3" />
               </Link>
               <label className="text-white text-sm my-2">2015</label>
             </div>
@@ -264,7 +264,7 @@ const tanri = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image src={"/tanriD.jpg"} fill objectFit="cover" alt="book3" />
+                <img src={"/tanriD.jpg"} fill objectFit="cover" alt="book3" />
               </Link>
               <label className="text-white text-sm my-2">2016</label>
             </div>
@@ -276,7 +276,7 @@ const tanri = () => {
                 className="relative w-64 h-[370px]"
                 target="_blank"
               >
-                <Image
+                <img
                   src={"/product-a.jpeg"}
                   fill
                   objectFit="cover"
