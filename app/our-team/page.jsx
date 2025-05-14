@@ -139,8 +139,11 @@ const OurTeam = () => {
             </h1>
             <p className="text-xs my-4 max-w-md">
               The Boardroom Partnership was an advisory firm focusing on
-              governing boards, initiated by the late Dr. Tanri Abeng a couple
-              of years ago. Today, This Think Tank “the Boardroom Partnership”
+              governing boards, initiated by the late{" "}
+              <Link className="underline" href="/our-team/tanri">
+                Dr. Tanri Abeng
+              </Link>{" "}
+              a couple of years ago. Today, The Boardroom Partnership Think Tank
               and our international team functions as a real bridge between
               Thought Leadership and actual practitioners in the field. Our
               reputation - as advisor-author, academic, board member or
@@ -149,7 +152,8 @@ const OurTeam = () => {
               partners of this Think Tank have all the necessary academic
               qualifications and strategic business experience to position us
               well to really form a strong partnership with your board and your
-              top management. <br />
+              top management.
+              <br />
               <br />
               Our thought leadership capabilities and expertise is well
               established – allowing to enhance your chances to take on

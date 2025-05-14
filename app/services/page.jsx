@@ -94,8 +94,8 @@ const Services = () => {
               className="bg-third text-white px-12 py-6 md:py-10 m-5 md:self-end max-w-xl"
             >
               <h1 className="text-lg md:text-2xl font-semibold">
-                How to sustain or improve your ‘competitive position’ in the
-                market?
+                How to sustain or improve your organization’s relevance or
+                position in the market?
               </h1>
               <p className="text-xs md:text-sm my-4 max-w-md">
                 Success in organizations is almost always{" "}
@@ -105,10 +105,14 @@ const Services = () => {
                 >
                   temporary
                 </button>
-                . And it will require risk-taking and significant efforts to
-                maintain or sustain past success. The major distinguishing
-                factor to sustain economic performance is relentless strategic
-                innovation.
+                . And it will require vision, risk-taking and significant
+                efforts to maintain or sustain past success. The major
+                distinguishing factor to sustain economic performance is
+                relentless strategic innovation. Our Think Tank will partner
+                with you and your organization to remain relevant in the market
+                or industry by focusing on global risks that require appropriate
+                boardroom practices, especially in the field of sustainability &
+                governance and responsible artificial intelligence.
               </p>
               {/* <Link href="#2" className="font-bold text-xs md:text-sm">
                 READ MORE
@@ -168,7 +172,11 @@ const Services = () => {
                   />
                 </button>
                 <div className="w-full h-96 md:h-full  relative ">
-                  <img src={"/graph.svg"} fill  className="object-cover h-full w-full"/>
+                  <img
+                    src={"/graph.svg"}
+                    fill
+                    className="object-cover h-full w-full"
+                  />
                 </div>
               </motion.div>
             </div>
@@ -268,7 +276,7 @@ const Services = () => {
             className="bg-third max-w-md p-9 m-3 text-lg md:text-2xl font-semibold text-white"
           >
             Three main areas to partner with you to improve your firm’s overall
-            performance
+            performance or maintain your organization’s relevance.
           </motion.div>
         </div>
         <div className="h-fit flex flex-col-reverse md:flex-row z-10">
@@ -322,7 +330,7 @@ const Services = () => {
               fill
               objectFit="cover"
               alt="article B"
-               className="object-cover h-full w-full"
+              className="object-cover h-full w-full"
             />
           </div>
         </div>
@@ -345,11 +353,28 @@ const Services = () => {
           >
             <div className="md:p-20 p-10">
               <h className="text-lg md:text-2xl text-third leading-tight">
-              Integrated Risk Management &amp; <br/>Responsible Artificial Intelligence
+                Integrated Risk Management &amp; <br />
+                Responsible Artificial Intelligence
               </h>
               <p className="text-sm text-black my-4">
-              Once the proper foundations of good corporate governance are in place, proper vision and strategy can be thought through that involves integrating all risk perspectives for and within the company. In a fierce global competitive environment, boards and management have a fiduciary duty to prepare a future-proof organization that provide a decent risk-adjusted return on the investment for its owners, and creates products, services and experiences for its customers, empower its employees to thrive in a meaningful organization, and take care of its suppliers to secure timely and high quality input. <br /> <br />
-              Such creation of value requires not just proper stakeholder engagement but above all new innovative insights – such as artificial intelligence tools – that allows your firm to grow effectively and efficiently in a responsible and accountable manner. No technology should be able to harm its users or be misused by its owners or creators; hence why responsible artificial intelligence technology should be at the forefront of any integrated risk management approach.
+                Once the proper foundations of good corporate governance are in
+                place, proper vision and strategy can be thought through that
+                involves integrating all risk perspectives for and within the
+                company. In a fierce global competitive environment, boards and
+                management have a fiduciary duty to prepare a future-proof
+                organization that provide a decent risk-adjusted return on the
+                investment for its owners, and creates products, services and
+                experiences for its customers, empower its employees to thrive
+                in a meaningful organization, and take care of its suppliers to
+                secure timely and high quality input. <br /> <br />
+                Such creation of value requires not just proper stakeholder
+                engagement but above all new innovative insights – such as
+                artificial intelligence tools – that allows your firm to grow
+                effectively and efficiently in a responsible and accountable
+                manner. No technology should be able to harm its users or be
+                misused by its owners or creators; hence why responsible
+                artificial intelligence technology should be at the forefront of
+                any integrated risk management approach.
               </p>
             </div>
           </motion.div>
@@ -428,13 +453,22 @@ const Services = () => {
                   />
                 </button>
                 <div className="w-full h-96 md:h-full  relative ">
-                  <img src={"/graph2.jpg"} fill  className="object-cover h-full w-full"/>
+                  <img
+                    src={"/graph2.jpg"}
+                    fill
+                    className="object-cover h-full w-full"
+                  />
                 </div>
               </motion.div>
             </div>
           </div>
           <div className="md:w-1/2 w-full h-96 md:h-auto relative z-0 bg-slate-600">
-            <img src={"/article-d.jpg"} fill objectFit="cover" className="object-cover h-full w-full"/>
+            <img
+              src={"/article-d.jpg"}
+              fill
+              objectFit="cover"
+              className="object-cover h-full w-full"
+            />
           </div>
         </div>
       </div>
