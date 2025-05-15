@@ -124,13 +124,14 @@ const tanri = () => {
                   Tanri Abeng
                 </h1>
                 <p className="max-w-2xl overflow-y-autox text-xs">
-                  Dr. Tanri Abeng is the chairman of Biofarma, a pharmaceutical
-                  State Owned Enterprise in Indonesia. Asa practitioner, he
-                  always has been a strong proponent of entrepreneurial
-                  leadership. To materialize that dream, he established an
-                  educational center and became the Rector of the Tanri Abeng
-                  University and chair of the well-recognized Executive Center
-                  of Global Leadership in Jakarta. <br /> <br />
+                  The late Dr Tanri Abeng’s last position was being the chair of
+                  Biofarma, a pharmaceutical State Owned Enterprise in
+                  Indonesia. As a practitioner, he always has been a strong
+                  proponent of entrepreneurial leadership. To materialize that
+                  dream, he established an educational center and became the
+                  Rector of the Tanri Abeng University and chair of the
+                  well-recognized Executive Center of Global Leadership in
+                  Jakarta. <br /> <br />
                   Prior to that, he was chairman of PT Pertamina and PT Telkom
                   which he successfully restructured. During the Asian crisis of
                   1998-2001, he was the first minister of State Owned
@@ -142,7 +143,10 @@ const tanri = () => {
                   returned to Hasanudin University in Makasar. He obtained his
                   MBA from Buffalo Business School in New York, and completed
                   his PhD in management at the Gaja Mada University in
-                  Yogjakarta. He lives with his family in Jakarta.
+                  Yogjakarta. Pak Tanri was 83 years when he passed in 2024; he
+                  will be remembered as a generous friend and fine mentor by
+                  Peter Verhezen, the co-founder of The Boardroom Partnership
+                  and a close friend for years.
                   <br />
                   <br />
                 </p>
